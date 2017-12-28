@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough">
+    <h:head>
+        <title>Payment Method</title>
+    </h:head>
+    <h:body>
+        <h:form>
+            
+            <h2>Add a Payment Method</h2><br/>
+            TelMarket Accepts Visa/MasterCard<br/>
+            Enter your card Information:<br/><br/>
+        
+            Credit Card Name:<br/>
+            <h:inputText    value="#{paymentDetails.name}"  a:placeholder="Visa / MasterCard"/>
+            <br/><br/>
+            Credit Card Number:<br/>
+            <h:inputText    value="#{paymentDetails.cardNumber}"    a:placeholder="xxxx-0000-0000-0000"/>
+            <br/><br/>
+            Enter PIN:
+            <h:inputSecret  id="pin"     value="#{paymentDetails.pin}"/>
+            <br/><br/>
+            Expiration Date:<br/>
+            <h:inputText    value="#{paymentDetails.expDate}"   a:placeholder="MMYY"/>
+            <br/><br/>
+            <h:commandButton    value="Add Your Card"   action="confirm3_1.jsp"/>
+            
+        </h:form>
+    </h:body>
+</html>
+

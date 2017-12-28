@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    
+    <h:head>
+        <title>Shipping Details</title>
+    </h:head>
+    <h:body>
+        
+        <h:form>
+            
+            Select a shipping address<br/>
+            Enter your shipping address<br/>
+            When you finish, click the "continue" button<br/><br/>
+        
+            Full Name<br/>
+            <h:inputText    value="#{shipping.fullName}"/>
+            <br/><br/>
+            Address Line 1<br/>
+            <h:inputText    value="#{shipping.addLine1}"    a:placeholder="street Address, P.O.Box, Company name, etc"/>
+            <br/><br/>
+            Address Line 2<br/>
+            <h:inputText    value="#{shipping.addLine2}"    a:placeholder="Apartment, Suite, unit, Building, Floor, etc"/>
+            <br/><br/>
+            City<br/>
+            <h:inputText    value="#{shipping.city}"/>
+            <br/><br/>
+            State/Province/Region<br/>
+            <h:inputText    value="#{shipping.state}"/>
+            <br/><br/>
+            Country<br/>
+            <h:selectOneMenu    value="#{shipping.country}">
+                <f:selectItems  value="#{shipping.countryOptions}"/>
+            </h:selectOneMenu>
+            <br/><br/>
+            Phone Number<br/>
+            <h:inputText    value="#{shipping.phone}"/>
+            <br/><br/>
+            <h:commandButton    value="Continue"    action="confirm2"/>
+            
+        </h:form>
+        
+    </h:body>
+</html>
+
