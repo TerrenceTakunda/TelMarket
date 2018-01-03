@@ -29,6 +29,10 @@
         <servlet-name>SendControl</servlet-name>
         <url-pattern>/SendControl</url-pattern>
     </servlet-mapping>
+    <mime-mapping>
+        <extension>jsp</extension>
+        <mime-type>text/html</mime-type>
+    </mime-mapping>
     <session-config>
         <session-timeout>
             30

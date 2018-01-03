@@ -7,12 +7,12 @@
     </h:head>
     <h:body>
         <h:form>
-        Thank you for your order #{shipping.fullName}<br/><br/>
-        After this transaction, your #{paymentDetails.name} will be billed for $#{value.total}<br/>
-        Please go ahead and provide your credit card PIN number and make your purchase.<br/><br/>
+        Thank you for your order #{flowBean.fullName}<br/><br/>
+        After this transaction, your #{flowBean.name} will be billed for $#{flowBean.total}<br/>
+        Please go ahead and confirm your credit card purchase.<br/><br/>
         
             
-            <h:commandButton    value="BUY"     action="SendControl"/>
+        <h:commandButton    value="BUY"     action="#{flowBean.sendIt}"/>
         </h:form>
     </h:body>
 </html>

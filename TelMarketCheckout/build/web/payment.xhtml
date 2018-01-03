@@ -14,20 +14,19 @@
             Enter your card Information:<br/><br/>
         
             Credit Card Name:<br/>
-            <h:inputText    value="#{paymentDetails.name}"  a:placeholder="Visa / MasterCard"/>
+            <h:inputText    value="#{flowBean.name}"  a:placeholder="Visa / MasterCard"/>
             <br/><br/>
             Credit Card Number:<br/>
-            <h:inputText    value="#{paymentDetails.cardNumber}"    a:placeholder="xxxx-0000-0000-0000"/>
+            <h:inputText    value="#{flowBean.cardNumber}"    a:placeholder="xxxx-0000-0000-0000"/>
             <br/><br/>
             Enter PIN:
-            <h:inputSecret  id="pin"     value="#{paymentDetails.pin}"/>
+            <h:inputSecret  id="pin"     value="#{flowBean.pin}"/>
             <br/><br/>
             Expiration Date:<br/>
-            <h:inputText    value="#{paymentDetails.expDate}"   a:placeholder="MMYY"/>
+            <h:inputText    value="#{flowBean.expDate}"   a:placeholder="MMYY"/>
             <br/><br/>
-            <h:commandButton    value="Add Your Card"   action="confirm3_1.jsp"/>
+            <h:commandButton    value="Add Your Card"   action="confirm3"/>
             
         </h:form>
     </h:body>
 </html>
-

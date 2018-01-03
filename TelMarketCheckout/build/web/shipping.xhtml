@@ -17,27 +17,27 @@
             When you finish, click the "continue" button<br/><br/>
         
             Full Name<br/>
-            <h:inputText    value="#{shipping.fullName}"/>
+            <h:inputText    value="#{flowBean.fullName}"/>
             <br/><br/>
             Address Line 1<br/>
-            <h:inputText    value="#{shipping.addLine1}"    a:placeholder="street Address, P.O.Box, Company name, etc"/>
+            <h:inputText    value="#{flowBean.addLine1}"    a:placeholder="street Address, P.O.Box, Company name, etc"/>
             <br/><br/>
             Address Line 2<br/>
-            <h:inputText    value="#{shipping.addLine2}"    a:placeholder="Apartment, Suite, unit, Building, Floor, etc"/>
+            <h:inputText    value="#{flowBean.addLine2}"    a:placeholder="Apartment, Suite, unit, Building, Floor, etc"/>
             <br/><br/>
             City<br/>
-            <h:inputText    value="#{shipping.city}"/>
+            <h:inputText    value="#{flowBean.city}"/>
             <br/><br/>
             State/Province/Region<br/>
-            <h:inputText    value="#{shipping.state}"/>
+            <h:inputText    value="#{flowBean.state}"/>
             <br/><br/>
             Country<br/>
-            <h:selectOneMenu    value="#{shipping.country}">
-                <f:selectItems  value="#{shipping.countryOptions}"/>
+            <h:selectOneMenu    value="#{flowBean.country}">
+                <f:selectItems  value="#{flowBean.countryOptions}"/>
             </h:selectOneMenu>
             <br/><br/>
             Phone Number<br/>
-            <h:inputText    value="#{shipping.phone}"/>
+            <h:inputText    value="#{flowBean.phone}"/>
             <br/><br/>
             <h:commandButton    value="Continue"    action="confirm2"/>
             
@@ -45,4 +45,5 @@
         
     </h:body>
 </html>
+
 
