@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2018-01-17T22:47:37.921" lifespan="1ms">
+  <info>
+    Q2 started, deployDir=/home/terrence/projects/BANK_NMB/build/install/BANK_NMB/deploy
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-17T22:47:39.500" lifespan="1486ms">
+  <version>
+    jPOS 2.1.1 master/2a2874f (2017-11-13 11:09:54 ART)
+BANK_NMB 2.1.1 unknown/unknown (2018-01-17 22:47:35 CAT)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2018-01-17T22:47:39.591" lifespan="37ms">
+  <info>
+    deploy: /home/terrence/projects/BANK_NMB/build/install/BANK_NMB/deploy/50_nmb_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-17T22:47:39.667" lifespan="56ms">
+  <info>
+    deploy: /home/terrence/projects/BANK_NMB/build/install/BANK_NMB/deploy/99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-01-17T22:47:39.840">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="simulator_7113.server" at="2018-01-17T22:47:39.854">
+  <iso-server>
+    listening on port 7113
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-01-17T22:47:39.878">
+  <info>
+               OS: Linux (4.14.0-parrot12-amd64)
+             Java: 1.8.0_151 (Oracle Corporation) AES-secure
+     process name: 15773@parrot
+             host: parrot/127.0.1.1
+              cwd: /home/terrence/projects/BANK_NMB/build/install/BANK_NMB
+       free space: 153.9 GiB
+     usable space: 145.1 GiB
+          version: 2.1.1 (2a2874f)
+         instance: b08bbd1d-b44f-46b9-8083-73b0f9226fbf
+           uptime: 00:00:03.046 (0.970000)
+       processors: 2
+           drift : 0
+    memory(t/u/f): 84/26/57
+         encoding: UTF-8
+         timezone: Africa/Harare (Central Africa Time) +02:00
+    watch service: sun.nio.fs.LinuxWatchService
+            clock: 1516222060 2018-01-17T20:47:39.894Z
+     thread count: 11
+     peak threads: 11
+     user threads: 8
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-b08bbd1d-b44f-46b9-8083-73b0f9226fbf,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-4,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[simulator_7113-ThreadPool.PooledThread-0,5,simulator_7113-ThreadPool-0]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      logger.Q2: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      simulator_7113: org.jpos.q2.iso.QServer
+      server.simulator_7113: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-17T22:48:02.306">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-17T22:48:02.394">
+  <trace>
+    undeploying:/home/terrence/projects/BANK_NMB/build/install/BANK_NMB/deploy/99_sysmon.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-01-17T22:48:02.399">
+  <info>
+    Stopping SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-01-17T22:48:02.404">
+  <info>
+               OS: Linux (4.14.0-parrot12-amd64)
+             Java: 1.8.0_151 (Oracle Corporation) AES-secure
+     process name: 15773@parrot
+             host: parrot/127.0.1.1
+              cwd: /home/terrence/projects/BANK_NMB/build/install/BANK_NMB
+       free space: 153.9 GiB
+     usable space: 145.1 GiB
+          version: 2.1.1 (2a2874f)
+         instance: b08bbd1d-b44f-46b9-8083-73b0f9226fbf
+           uptime: 00:00:25.530 (0.700000)
+       processors: 2
+           drift : 0
+    memory(t/u/f): 84/10/73
+         encoding: UTF-8
+         timezone: Africa/Harare (Central Africa Time) +02:00
+    watch service: sun.nio.fs.LinuxWatchService
+            clock: 1516222082 2018-01-17T20:48:02.405Z
+     thread count: 13
+     peak threads: 14
+     user threads: 9
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[SIGTERM handler,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-b08bbd1d-b44f-46b9-8083-73b0f9226fbf,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-4,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[Q2-ShutdownHook,5,main]
+            Thread[simulator_7113-ThreadPool.PooledThread-0,5,simulator_7113-ThreadPool-0]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      logger.Q2: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      simulator_7113: org.jpos.q2.iso.QServer
+      server.simulator_7113: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-17T22:48:02.417" lifespan="13ms">
+  <info>
+    undeployed:/home/terrence/projects/BANK_NMB/build/install/BANK_NMB/deploy/99_sysmon.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-17T22:48:02.420">
+  <trace>
+    undeploying:/home/terrence/projects/BANK_NMB/build/install/BANK_NMB/deploy/50_nmb_server.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-01-17T22:48:02.425">
+  <info>
+    undeployed:/home/terrence/projects/BANK_NMB/build/install/BANK_NMB/deploy/50_nmb_server.xml
+  </info>
+</log>
+<log realm="simulator_7113.pool" at="2018-01-17T22:48:02.429" lifespan="3ms">
+  <queue closed/>
+</log>
+<log realm="Q2.system" at="2018-01-17T22:48:02.431">
+  <trace>
+    undeploying:/home/terrence/projects/BANK_NMB/build/install/BANK_NMB/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
