@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2018-01-19T00:04:48.507">
+  <info>
+    Q2 started, deployDir=/home/terrence/projects/BANK_CBZ/build/install/BANK_CBZ/deploy
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-19T00:04:51.946" lifespan="3243ms">
+  <version>
+    jPOS 2.1.1 master/2a2874f (2017-11-13 11:09:54 ART)
+BANK_CBZ 2.1.1 unknown/unknown (2018-01-19 00:04:37 CAT)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2018-01-19T00:04:52.134" lifespan="88ms">
+  <info>
+    deploy: /home/terrence/projects/BANK_CBZ/build/install/BANK_CBZ/deploy/50_cbz_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-19T00:04:52.216" lifespan="62ms">
+  <info>
+    deploy: /home/terrence/projects/BANK_CBZ/build/install/BANK_CBZ/deploy/99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-01-19T00:04:52.403">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="simulator_7111.server" at="2018-01-19T00:04:53.256" lifespan="765ms">
+  <iso-server>
+    listening on port 7111
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-01-19T00:04:52.433">
+  <info>
+               OS: Linux (4.14.0-parrot12-amd64)
+             Java: 1.8.0_151 (Oracle Corporation) AES-secure
+     process name: 15195@parrot
+             host: parrot/127.0.1.1
+              cwd: /home/terrence/projects/BANK_CBZ/build/install/BANK_CBZ
+       free space: 153.7 GiB
+     usable space: 144.9 GiB
+          version: 2.1.1 (2a2874f)
+         instance: 61342172-5fc5-4608-acab-eeef24448779
+           uptime: 00:00:08.242 (3.890000)
+       processors: 2
+           drift : 0
+    memory(t/u/f): 84/26/57
+         encoding: UTF-8
+         timezone: Africa/Harare (Central Africa Time) +02:00
+    watch service: sun.nio.fs.LinuxWatchService
+            clock: 1516313093 2018-01-18T22:04:52.462Z
+     thread count: 11
+     peak threads: 11
+     user threads: 8
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-61342172-5fc5-4608-acab-eeef24448779,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-4,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[simulator_7111-ThreadPool.PooledThread-0,5,simulator_7111-ThreadPool-0]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      logger.Q2: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      simulator_7111: org.jpos.q2.iso.QServer
+      server.simulator_7111: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+  </info>
+</log>
+<log realm="simulator_7111.server.session/127.0.0.1:45188" at="2018-01-19T00:04:56.423" lifespan="1ms">
+  <session-start/>
+</log>
+<log realm="channel/127.0.0.1:45188" at="2018-01-19T00:06:20.381" lifespan="83957ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.XML2003Packager -->
+      <field id="0" value="2100"/>
+      <field id="2" value="4874971111111115"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="865"/>
+      <field id="7" value="0102141155"/>
+      <field id="11" value="000001"/>
+      <field id="14" value="1220"/>
+      <field id="24" value="100"/>
+      <field id="26" value="5141"/>
+      <field id="41" value="00000001"/>
+      <isomsg id="43">
+        <field id="2" value="TelOne TelMarket"/>
+        <field id="3" value="Robert Mugabe road"/>
+        <field id="4" value="Harare"/>
+        <field id="7" value="263"/>
+      </isomsg>
+      <isomsg id="113">
+        <field id="3" value="terrence munyunguma"/>
+        <field id="11" value="17 Harold Gordon Drive"/>
+        <field id="12" value="Number 1"/>
+        <field id="13" value="Hwange"/>
+        <field id="17" value="0773638697"/>
+      </isomsg>
+    </isomsg>
+  </receive>
+</log>
+<log realm="channel/127.0.0.1:45188" at="2018-01-19T00:06:21.036" lifespan="6ms">
+  <send>
+    <isomsg>
+      <!-- org.jpos.iso.packager.XML2003Packager -->
+      <field id="0" value="2110"/>
+      <field id="2" value="4874971111111115"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="865"/>
+      <field id="7" value="0102141155"/>
+      <field id="11" value="000001"/>
+      <field id="14" value="1220"/>
+      <field id="24" value="100"/>
+      <field id="26" value="5141"/>
+      <field id="37" value="374531"/>
+      <field id="38" value="219415"/>
+      <field id="39" value="1015"/>
+      <field id="41" value="00000001"/>
+      <isomsg id="43">
+        <field id="2" value="TelOne TelMarket"/>
+        <field id="3" value="Robert Mugabe road"/>
+        <field id="4" value="Harare"/>
+        <field id="7" value="263"/>
+      </isomsg>
+      <isomsg id="113">
+        <field id="3" value="terrence munyunguma"/>
+        <field id="11" value="17 Harold Gordon Drive"/>
+        <field id="12" value="Number 1"/>
+        <field id="13" value="Hwange"/>
+        <field id="17" value="0773638697"/>
+      </isomsg>
+    </isomsg>
+  </send>
+</log>
+<log realm="Q2.system" at="2018-01-19T00:10:35.274">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-19T00:10:37.617" lifespan="1ms">
+  <trace>
+    undeploying:/home/terrence/projects/BANK_CBZ/build/install/BANK_CBZ/deploy/99_sysmon.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-01-19T00:10:37.620">
+  <info>
+    Stopping SystemMonitor
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-19T00:10:37.640" lifespan="16ms">
+  <info>
+    undeployed:/home/terrence/projects/BANK_CBZ/build/install/BANK_CBZ/deploy/99_sysmon.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-19T00:10:37.643">
+  <trace>
+    undeploying:/home/terrence/projects/BANK_CBZ/build/install/BANK_CBZ/deploy/50_cbz_server.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-01-19T00:10:37.622">
+  <info>
+               OS: Linux (4.14.0-parrot12-amd64)
+             Java: 1.8.0_151 (Oracle Corporation) AES-secure
+     process name: 15195@parrot
+             host: parrot/127.0.1.1
+              cwd: /home/terrence/projects/BANK_CBZ/build/install/BANK_CBZ
+       free space: 153.7 GiB
+     usable space: 144.9 GiB
+          version: 2.1.1 (2a2874f)
+         instance: 61342172-5fc5-4608-acab-eeef24448779
+           uptime: 00:05:53.365 (1.360000)
+       processors: 2
+           drift : 0
+    memory(t/u/f): 84/14/70
+         encoding: UTF-8
+         timezone: Africa/Harare (Central Africa Time) +02:00
+    watch service: sun.nio.fs.LinuxWatchService
+            clock: 1516313437 2018-01-18T22:10:37.624Z
+     thread count: 13
+     peak threads: 14
+     user threads: 9
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[SIGTERM handler,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-61342172-5fc5-4608-acab-eeef24448779,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-4,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[Q2-ShutdownHook,5,main]
+            Thread[simulator_7111-ThreadPool.PooledThread-0-running,5,simulator_7111-ThreadPool-0]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      Q2: org.jpos.q2.Q2
+      logger.Q2: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      simulator_7111: org.jpos.q2.iso.QServer
+      server.simulator_7111: org.jpos.iso.ISOServer
+        connected=1, rx=1, tx=1, last=1516313180436, idle=257203ms
+          127.0.0.1:45188: rx=1, tx=1, last=1516313180436
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-19T00:10:37.649">
+  <info>
+    undeployed:/home/terrence/projects/BANK_CBZ/build/install/BANK_CBZ/deploy/50_cbz_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-19T00:10:37.654">
+  <trace>
+    undeploying:/home/terrence/projects/BANK_CBZ/build/install/BANK_CBZ/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
