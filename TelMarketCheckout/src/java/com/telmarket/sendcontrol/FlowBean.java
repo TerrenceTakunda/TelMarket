@@ -23,22 +23,21 @@ import javax.inject.Named;
 import javax.faces.bean.SessionScoped;
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
+import java.util.logging.Level;
 import javax.faces.bean.ManagedBean;
 import javax.faces.context.FacesContext;
 import org.jpos.iso.ISOChannel;
 import org.jpos.iso.ISOException;
 import org.jpos.iso.ISOMsg;
 import org.jpos.iso.channel.XMLChannel;
-import org.jpos.iso.packager.ISO87APackager;
-import org.jpos.iso.packager.XMLPackager;
+import org.jpos.iso.packager.XML2003Packager;
 import org.jpos.util.LogSource;
 import org.jpos.util.SimpleLogListener;
 
 /**
  *
- * @author terrence takunda
+ * @author terrence takunda munyunguma
  */
 
 @Named(value = "flowBean")
@@ -176,14 +175,19 @@ public class FlowBean implements Serializable {
         this.pin = pin;
     }
     
+    
+    // sending payment method
+    
     public void sendIt() throws ISOException, IOException{
-       
-        FlowBean PAN = new FlowBean();
+       ISOMsg incoming = null;
         
         try{
         org.jpos.util.Logger logger = new org.jpos.util.Logger();
         logger.addListener(new SimpleLogListener(System.out));
-        ISOChannel channel = new XMLChannel("localhost",1990,new XMLPackager());
+        
+        //GenericPackager packager = new GenericPackager("visapack.xml");
+        
+        ISOChannel channel = new XMLChannel("localhost",1990, new XML2003Packager());
         ((LogSource)channel).setLogger(logger,"client-logger");
         
        
@@ -191,42 +195,75 @@ public class FlowBean implements Serializable {
             channel.connect();
             ISOMsg m = new ISOMsg();
             
-            m.setMTI("0100");
+            m.setMTI("2100");
             m.set(2,cardNumber);                     // PAN                         
             m.set(3,"003000");                       //proccesing code
             m.set(4,total);                          //amount, transaction
-            m.set(7,"0102141155");                   // transmisson date and time MMDDhhmmss
+            m.set(7,"0102141155");                   // TRANSMISSION DATE AND TIME
             m.set(11, "000001");                     //System trace audit number (STAN)
-            m.set(14,expDate);                       // date, expiration YYMM
-            m.set(18,"5141");                        //merchant type, merchant category
-            m.set(19,"263");                         //Acquiring instituition country code
-            m.set(20,"263");                         //PAN extended country code
+            m.set(14,expDate);                       // date, expiration YYMM       
+            m.set(24, "100");                       //Function Code - Original authorization - amount accurate
+            //m.set(25, "");                          //Reason Code
+            m.set(26,"5141");                        //merchant type, merchant category
             m.set(41, "00000001");                   //Card acceptor terminal identification
-            m.set(59,name);                          //reserved, national use    //cardName
-            m.set(105,addLine1);                    //reserved for iso use  //adderess line1
-            m.set(106,addLine2);                    //reserved for iso use  //adderess line2
-            m.set(107,city);                        //reserved for iso use  //city
-            m.set(108,state);                       //reserved for iso use  //state
-            m.set(109,country);                     //reserved for iso use  //country
-            //m.set(110,"");
+            //Card acceptor name/location
+            m.set("43.2", "TelOne TelMarket");      //name
+            m.set("43.3", "Robert Mugabe road");        //street
+            m.set("43.4", "Harare");                //city
+            m.set("43.7", "263");                   //country code
             
-            m.setPackager(new XMLPackager());
+            // cardholder jCard Data Elements
+            m.set("113.3",name);                     //customer first Name
+            m.set("113.11",addLine1);                //adderess line1
+            m.set("113.12",addLine2);                //adderess line2
+            m.set("113.13",city);                    //city
+            //m.set(109,state);                       //reserved for iso use  //state
+            m.set("113.17",phone);                  //customer phone
+            //m.set(110,country);                     //reserved for iso use  //country
+            //m.set("113.16","")    //country code
+            
+            m.setPackager(new XML2003Packager());
             
             byte[] data = m.pack();
             System.out.println("======================================================================");
             System.out.println(new String(data));
             System.out.println("======================================================================");
     
-            //channel.send(m);
             channel.send(data);
             
-            ISOMsg incoming = channel.receive();
-            System.out.println(Arrays.toString(incoming.pack()));
+            incoming = channel.receive();
+            
+            System.out.println(incoming.pack());
             
         }
         catch(ISOException | IOException e){
-            e.printStackTrace();
-        }        
-        FacesContext.getCurrentInstance().getExternalContext().redirect("success.xhtml");
+            
+            //e.printStackTrace();
+            java.util.logging.Logger.getLogger(FlowBean.class.getName()).log(Level.SEVERE, null, e);
+        }
+        
+        if(incoming.hasField(39)==true){
+            
+            if("0000".equals(String.valueOf(incoming.getValue(39)))){
+                
+                FacesContext.getCurrentInstance().getExternalContext().redirect("success.xhtml");
+            }
+            else if("1810".equals(String.valueOf(incoming.getValue(39)))){
+                FacesContext.getCurrentInstance().getExternalContext().redirect("error_amount.xhtml");
+            }
+            else if("1001".equals(String.valueOf(incoming.getValue(39)))){
+                FacesContext.getCurrentInstance().getExternalContext().redirect("error_expired.xhtml");
+            }
+            else if("1002".equals(String.valueOf(incoming.getValue(39)))){
+                FacesContext.getCurrentInstance().getExternalContext().redirect("error_suspicious.xhtml");
+            }
+            else if("1015".equals(String.valueOf(incoming.getValue(39)))){
+                FacesContext.getCurrentInstance().getExternalContext().redirect("error_reqInvalid.xhtml");
+            }
+            else
+                FacesContext.getCurrentInstance().getExternalContext().redirect("error.xhtml");
+        }
+        else
+            FacesContext.getCurrentInstance().getExternalContext().redirect("error.xhtml");
     }
 }

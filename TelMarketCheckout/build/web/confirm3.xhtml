@@ -7,8 +7,10 @@
     </h:head>
     <h:body>
         <h:form>
+            <h:graphicImage url="#{resource['images:The-new-TelOne-Logo.jpg']}" 
+                            alt="company logo"/><br/>
         Thank you for your order #{flowBean.fullName}<br/><br/>
-        After this transaction, your #{flowBean.name} will be billed for $#{flowBean.total}<br/>
+        After this transaction, #{flowBean.name} will be billed for $#{flowBean.total}<br/>
         Please go ahead and confirm your credit card purchase.<br/><br/>
         
             

@@ -3,18 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html">
     <h:head>
-        <title>Make payment</title>
+        <title>Facelet Title</title>
     </h:head>
     <h:body>
         <h:form>
             <h:graphicImage url="#{resource['images:The-new-TelOne-Logo.jpg']}" 
                             alt="company logo"/><br/>
-        Thank you for your order #{flowBean.fullName}<br/><br/>
-        After this transaction, #{flowBean.name} will be billed for $#{flowBean.total}<br/>
-        Please go ahead and confirm your credit card purchase.<br/><br/>
-        
-            
-        <h:commandButton    value="BUY"     action="#{flowBean.sendIt}"/>
+        <h2>YOUR REQUEST WAS REJECTED</h2>
+        <h2>This card is expired</h2>
         </h:form>
     </h:body>
 </html>

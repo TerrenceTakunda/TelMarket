@@ -6,16 +6,22 @@ and open the template in the editor.
 -->
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html">
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
     
     <h:head>
         <title>Confirm Checkout Amount</title>
-        <!--meta name="viewport" content="width=device-width, initial-scale=1.0"/-->
     </h:head>
     
     <h:body>
         <h:form>
-        You are going to order stuff worth : $ #{flowBean.total}<br/><br/>
+            <h:graphicImage url="#{resource['images:The-new-TelOne-Logo.jpg']}" 
+                            alt="company logo"/><br/>
+        You are going to order stuff worth : $
+            <h:outputText value="#{flowBean.total}">
+                <f:convertNumber currencySymbol="$" type="currency"/>
+            </h:outputText>
+        <br/><br/>
         Is this right?<br/><br/>
         
         <h:commandButton    value="checkout"    action="login"/>
