@@ -1,0 +1,5 @@
+<mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="BARCLAYS">
+	<in>barclays-receive</in>
+	<out>barclays-send</out>
+	<ready>barclays-channel.ready</ready>
+</mux>

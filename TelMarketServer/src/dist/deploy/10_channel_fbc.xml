@@ -1,0 +1,11 @@
+<channel-adaptor name='fbc-channel' class="org.jpos.q2.iso.ChannelAdaptor"
+		logger="Q2">
+	<channel class="org.jpos.iso.channel.XMLChannel"
+		packager="org.jpos.iso.packager.XML2003Packager">
+	<property name="host" value="localhost" />
+	<property name="port" value="7112" />
+	</channel>
+<in>fbc-send</in>
+<out>fbc-receive</out>
+<reconnect-delay>10000</reconnect-delay>
+</channel-adaptor>

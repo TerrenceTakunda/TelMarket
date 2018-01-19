@@ -1,0 +1,5 @@
+<mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="ZB">
+	<in>zb-receive</in>
+	<out>zb-send</out>
+	<ready>zb-channel.ready</ready>
+</mux>

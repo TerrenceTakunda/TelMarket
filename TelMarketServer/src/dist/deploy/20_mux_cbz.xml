@@ -1,0 +1,5 @@
+<mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="CBZ">
+	<in>cbz-receive</in>
+	<out>cbz-send</out>
+	<ready>cbz-channel.ready</ready>
+</mux>

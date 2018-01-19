@@ -4,6 +4,31 @@
 	<property name="max-sessions" value="128"/>
 	<property name="debug" value="true"/>
 
+        <participant class="org.jpos.transaction.participant.SelectDestination">
+            
+            <endpoint   destination = "BARCLAYS">
+                 438914 440571 456484 540214 540983 543253 
+            </endpoint>
+            <endpoint   destination = "CBZ">
+                 429067 429068 429081 429592 429593 487457 487458 487497 
+            </endpoint>
+            <endpoint   destination = "FBC">
+                 533303 537027
+            </endpoint>
+            <endpoint   destination = "NMB">
+                 402723 421158 421159 423803 423815 429326 429502 
+            </endpoint>
+            <endpoint   destination = "STANBIC">
+                 406909 406913 406930 424347 424348
+            </endpoint>
+            <endpoint   destination = "ZB">
+                 433003 433004 445972 465880 486424
+            </endpoint>
+            <endpoint   destination = "STANCHAT">
+                 406896 440225 440292 456791 543444 547395 548873
+            </endpoint>
+            
+	</participant>
 	<participant class="org.jpos.transaction.participant.QueryHost"/>
 	<participant class="org.jpos.transaction.participant.SendResponse"/>
 </txnmgr>

@@ -1,0 +1,5 @@
+<mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="NMB">
+	<in>nmb-receive</in>
+	<out>nmb-send</out>
+	<ready>nmb-channel.ready</ready>
+</mux>

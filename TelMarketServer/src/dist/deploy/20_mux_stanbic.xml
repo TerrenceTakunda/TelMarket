@@ -1,0 +1,5 @@
+<mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="STANBIC">
+	<in>stanbic-receive</in>
+	<out>stanbic-send</out>
+	<ready>stanbic-channel.ready</ready>
+</mux>

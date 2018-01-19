@@ -1,0 +1,5 @@
+<mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="FBC">
+	<in>fbc-receive</in>
+	<out>fbc-send</out>
+	<ready>fbc-channel.ready</ready>
+</mux>

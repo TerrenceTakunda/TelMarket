@@ -1,0 +1,5 @@
+<mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="STANCHAT">
+	<in>stanchat-receive</in>
+	<out>stanchat-send</out>
+	<ready>stanchat-channel.ready</ready>
+</mux>
