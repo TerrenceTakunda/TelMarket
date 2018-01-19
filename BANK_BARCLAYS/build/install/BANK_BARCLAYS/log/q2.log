@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2018-01-19T10:39:25.972">
+  <info>
+    Q2 started, deployDir=/home/terrence/projects/BANK_BARCLAYS/build/install/BANK_BARCLAYS/deploy
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-19T10:39:28.607" lifespan="2451ms">
+  <version>
+    jPOS 2.1.1 master/2a2874f (2017-11-13 11:09:54 ART)
+BANK_BARCLAYS 2.1.1 unknown/unknown (2018-01-19 10:39:22 CAT)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2018-01-19T10:39:28.730" lifespan="58ms">
+  <info>
+    deploy: /home/terrence/projects/BANK_BARCLAYS/build/install/BANK_BARCLAYS/deploy/50_barclays_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-19T10:39:28.809" lifespan="63ms">
+  <info>
+    deploy: /home/terrence/projects/BANK_BARCLAYS/build/install/BANK_BARCLAYS/deploy/99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-01-19T10:39:28.939">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="simulator_7110.server" at="2018-01-19T10:39:29.443" lifespan="455ms">
+  <iso-server>
+    listening on port 7110
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-01-19T10:39:28.960">
+  <info>
+               OS: Linux (4.14.0-parrot12-amd64)
+             Java: 1.8.0_151 (Oracle Corporation) AES-secure
+     process name: 8256@parrot
+             host: parrot/127.0.1.1
+              cwd: /home/terrence/projects/BANK_BARCLAYS/build/install/BANK_BARCLAYS
+       free space: 153.7 GiB
+     usable space: 144.9 GiB
+          version: 2.1.1 (2a2874f)
+         instance: 28670454-6af7-4c4e-a32d-1c742b7448fc
+           uptime: 00:00:04.393 (5.190000)
+       processors: 2
+           drift : 0
+    memory(t/u/f): 84/26/57
+         encoding: UTF-8
+         timezone: Africa/Harare (Central Africa Time) +02:00
+    watch service: sun.nio.fs.LinuxWatchService
+            clock: 1516351169 2018-01-19T08:39:28.982Z
+     thread count: 11
+     peak threads: 11
+     user threads: 8
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-28670454-6af7-4c4e-a32d-1c742b7448fc,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-4,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[simulator_7110-ThreadPool.PooledThread-0,5,simulator_7110-ThreadPool-0]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      server.simulator_7110: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      Q2: org.jpos.q2.Q2
+      logger.Q2: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      simulator_7110: org.jpos.q2.iso.QServer
+  </info>
+</log>
+<log realm="simulator_7110.server.session/127.0.0.1:34098" at="2018-01-19T10:39:38.773" lifespan="1ms">
+  <session-start/>
+</log>
+<log realm="channel/127.0.0.1:34098" at="2018-01-19T10:43:52.324" lifespan="253550ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.XML2003Packager -->
+      <field id="0" value="2100"/>
+      <field id="2" value="5409831111111112"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="865"/>
+      <field id="7" value="0102141155"/>
+      <field id="11" value="000001"/>
+      <field id="14" value="1220"/>
+      <field id="24" value="100"/>
+      <field id="26" value="5141"/>
+      <field id="41" value="00000001"/>
+      <isomsg id="43">
+        <field id="2" value="TelOne TelMarket"/>
+        <field id="3" value="Robert Mugabe road"/>
+        <field id="4" value="Harare"/>
+        <field id="7" value="263"/>
+      </isomsg>
+      <isomsg id="113">
+        <field id="3" value="Terrence Munyunguma"/>
+        <field id="11" value="17 Harold Gordon Drive"/>
+        <field id="12" value="jyiutuyt"/>
+        <field id="13" value="Hwange"/>
+        <field id="17" value="0773638697"/>
+      </isomsg>
+    </isomsg>
+  </receive>
+</log>
+<log realm="channel/127.0.0.1:34098" at="2018-01-19T10:43:53.031" lifespan="32ms">
+  <send>
+    <isomsg>
+      <!-- org.jpos.iso.packager.XML2003Packager -->
+      <field id="0" value="2110"/>
+      <field id="2" value="5409831111111112"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="865"/>
+      <field id="7" value="0102141155"/>
+      <field id="11" value="000001"/>
+      <field id="14" value="1220"/>
+      <field id="24" value="100"/>
+      <field id="26" value="5141"/>
+      <field id="37" value="485600"/>
+      <field id="38" value="992434"/>
+      <field id="39" value="1001"/>
+      <field id="41" value="00000001"/>
+      <isomsg id="43">
+        <field id="2" value="TelOne TelMarket"/>
+        <field id="3" value="Robert Mugabe road"/>
+        <field id="4" value="Harare"/>
+        <field id="7" value="263"/>
+      </isomsg>
+      <isomsg id="113">
+        <field id="3" value="Terrence Munyunguma"/>
+        <field id="11" value="17 Harold Gordon Drive"/>
+        <field id="12" value="jyiutuyt"/>
+        <field id="13" value="Hwange"/>
+        <field id="17" value="0773638697"/>
+      </isomsg>
+    </isomsg>
+  </send>
+</log>
+<log realm="channel/127.0.0.1:34098" at="2018-01-19T10:46:42.573" lifespan="169484ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="simulator_7110.server.session/127.0.0.1:34098" at="2018-01-19T10:46:42.579" lifespan="1ms">
+  <session-end/>
+</log>
+<log realm="Q2.system" at="2018-01-19T10:47:01.420">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-19T10:47:01.680" lifespan="1ms">
+  <trace>
+    undeploying:/home/terrence/projects/BANK_BARCLAYS/build/install/BANK_BARCLAYS/deploy/99_sysmon.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-01-19T10:47:01.687">
+  <info>
+    Stopping SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-01-19T10:47:01.694">
+  <info>
+               OS: Linux (4.14.0-parrot12-amd64)
+             Java: 1.8.0_151 (Oracle Corporation) AES-secure
+     process name: 8256@parrot
+             host: parrot/127.0.1.1
+              cwd: /home/terrence/projects/BANK_BARCLAYS/build/install/BANK_BARCLAYS
+       free space: 153.7 GiB
+     usable space: 144.9 GiB
+          version: 2.1.1 (2a2874f)
+         instance: 28670454-6af7-4c4e-a32d-1c742b7448fc
+           uptime: 00:07:37.062 (1.010000)
+       processors: 2
+           drift : 0
+    memory(t/u/f): 84/14/69
+         encoding: UTF-8
+         timezone: Africa/Harare (Central Africa Time) +02:00
+    watch service: sun.nio.fs.LinuxWatchService
+            clock: 1516351621 2018-01-19T08:47:01.695Z
+     thread count: 13
+     peak threads: 14
+     user threads: 9
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[SIGTERM handler,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-28670454-6af7-4c4e-a32d-1c742b7448fc,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[Thread-4,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[Q2-ShutdownHook,5,main]
+            Thread[simulator_7110-ThreadPool.PooledThread-0-idle,5,simulator_7110-ThreadPool-0]
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+         key-count: 0
+            gcinfo: 0,0
+      server.simulator_7110: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=1516351432526, idle=189178ms
+      Q2: org.jpos.q2.Q2
+      logger.Q2: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      simulator_7110: org.jpos.q2.iso.QServer
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-19T10:47:01.710" lifespan="16ms">
+  <info>
+    undeployed:/home/terrence/projects/BANK_BARCLAYS/build/install/BANK_BARCLAYS/deploy/99_sysmon.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-01-19T10:47:01.713">
+  <trace>
+    undeploying:/home/terrence/projects/BANK_BARCLAYS/build/install/BANK_BARCLAYS/deploy/50_barclays_server.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-01-19T10:47:01.718">
+  <info>
+    undeployed:/home/terrence/projects/BANK_BARCLAYS/build/install/BANK_BARCLAYS/deploy/50_barclays_server.xml
+  </info>
+</log>
+<log realm="simulator_7110.pool" at="2018-01-19T10:47:01.735">
+  <queue closed/>
+</log>
+<log realm="Q2.system" at="2018-01-19T10:47:01.741">
+  <trace>
+    undeploying:/home/terrence/projects/BANK_BARCLAYS/build/install/BANK_BARCLAYS/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
