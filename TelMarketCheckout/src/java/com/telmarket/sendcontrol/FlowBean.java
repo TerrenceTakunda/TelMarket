@@ -18,6 +18,7 @@
 
 package com.telmarket.sendcontrol;
 
+import com.telmarket.logs.TransactionLogs;
 import java.io.IOException;
 import javax.inject.Named;
 import javax.faces.bean.SessionScoped;
@@ -25,15 +26,10 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.faces.bean.ManagedBean;
-import javax.faces.context.FacesContext;
-import org.jpos.iso.ISOChannel;
 import org.jpos.iso.ISOException;
 import org.jpos.iso.ISOMsg;
-import org.jpos.iso.channel.XMLChannel;
-import org.jpos.iso.packager.XML2003Packager;
-import org.jpos.util.LogSource;
-import org.jpos.util.SimpleLogListener;
 
 /**
  *
@@ -53,10 +49,11 @@ public class FlowBean implements Serializable {
     private String state;
     private String country;
     private String phone;
-    private String name;
+    private String cardName;
     private String cardNumber;
     private String expDate;
     private String pin;
+    private String transmissionDateAndTime;
     List<String> countryOptions;
 
     public FlowBean() {
@@ -70,6 +67,55 @@ public class FlowBean implements Serializable {
         countryOptions.add("Namibia");
     
     }
+    
+    public String send(){
+        
+        TransactionLogs log = new TransactionLogs();
+        SendPayment pay = new SendPayment();
+        
+        try {
+            
+            pay.sendIt(this);
+        } 
+        catch (ISOException | IOException ex) {
+            Logger.getLogger(FlowBean.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        finally{
+            log.createLog(this);
+        }
+        
+        ISOMsg incoming = pay.getIncoming();
+        
+        if(incoming != null){
+            if(incoming.hasField(39)==true){
+                if(null == String.valueOf(incoming.getValue(39)))return "/responce/error.xhtml?faces-redirect=true";
+                
+                    else switch (String.valueOf(incoming.getValue(39))) {
+                        case "0000":
+                            return "/responce/success.xhtml?faces-redirect=true";
+                        case "1810":
+                            return "/responce/error_amount.xhtml?faces-redirect=true";
+                        case "1001":
+                            return "/responce/error_expired.xhtml?faces-redirect=true";
+                        case "1002":
+                            return "/responce/error_suspicious.xhtml?faces-redirect=true";
+                        case "1015":
+                            return "/responce/error_reqInvalid.xhtml?faces-redirect=true";
+                        default:
+                            return "/responce/error.xhtml?faces-redirect=true";
+                    }
+            }
+            else
+                return "/responce/error.xhtml?faces-redirect=true";  
+        }
+        else
+            return "/responce/error_noresponce.xhtml?faces-redirect=true";
+    }
+
+    
+/****************************************************************************************************************************/  
+    //ACCESSOR
+/***@return**************************************************************************************************************************/    
 
     public String getTotal() {
         return total;
@@ -143,12 +189,12 @@ public class FlowBean implements Serializable {
         this.countryOptions = countryOptions;
     }
 
-    public String getName() {
-        return name;
+    public String getCardName() {
+        return cardName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setCardName(String cardName) {
+        this.cardName = cardName;
     }
 
     public String getCardNumber() {
@@ -174,96 +220,13 @@ public class FlowBean implements Serializable {
     public void setPin(String pin) {
         this.pin = pin;
     }
-    
-    
-    // sending payment method
-    
-    public void sendIt() throws ISOException, IOException{
-       ISOMsg incoming = null;
-        
-        try{
-        org.jpos.util.Logger logger = new org.jpos.util.Logger();
-        logger.addListener(new SimpleLogListener(System.out));
-        
-        //GenericPackager packager = new GenericPackager("visapack.xml");
-        
-        ISOChannel channel = new XMLChannel("localhost",1990, new XML2003Packager());
-        ((LogSource)channel).setLogger(logger,"client-logger");
-        
-       
-        
-            channel.connect();
-            ISOMsg m = new ISOMsg();
-            
-            m.setMTI("2100");
-            m.set(2,cardNumber);                     // PAN                         
-            m.set(3,"003000");                       //proccesing code
-            m.set(4,total);                          //amount, transaction
-            m.set(7,"0102141155");                   // TRANSMISSION DATE AND TIME
-            m.set(11, "000001");                     //System trace audit number (STAN)
-            m.set(14,expDate);                       // date, expiration YYMM       
-            m.set(24, "100");                       //Function Code - Original authorization - amount accurate
-            //m.set(25, "");                          //Reason Code
-            m.set(26,"5141");                        //merchant type, merchant category
-            m.set(41, "00000001");                   //Card acceptor terminal identification
-            //Card acceptor name/location
-            m.set("43.2", "TelOne TelMarket");      //name
-            m.set("43.3", "Robert Mugabe road");        //street
-            m.set("43.4", "Harare");                //city
-            m.set("43.7", "263");                   //country code
-            
-            // cardholder jCard Data Elements
-            m.set("113.3",name);                     //customer first Name
-            m.set("113.11",addLine1);                //adderess line1
-            m.set("113.12",addLine2);                //adderess line2
-            m.set("113.13",city);                    //city
-            //m.set(109,state);                       //reserved for iso use  //state
-            m.set("113.17",phone);                  //customer phone
-            //m.set(110,country);                     //reserved for iso use  //country
-            //m.set("113.16","")    //country code
-            
-            m.setPackager(new XML2003Packager());
-            
-            byte[] data = m.pack();
-            System.out.println("======================================================================");
-            System.out.println(new String(data));
-            System.out.println("======================================================================");
-    
-            channel.send(data);
-            
-            incoming = channel.receive();
-            
-            System.out.println(incoming.pack());
-            
-        }
-        catch(ISOException | IOException e){
-            
-            //e.printStackTrace();
-            java.util.logging.Logger.getLogger(FlowBean.class.getName()).log(Level.SEVERE, null, e);
-        }
-        
-        if(incoming.hasField(39)==true){
-            
-            if("0000".equals(String.valueOf(incoming.getValue(39)))){
-                
-                FacesContext.getCurrentInstance().getExternalContext().redirect("success.xhtml");
-            }
-            else if("1810".equals(String.valueOf(incoming.getValue(39)))){
-                FacesContext.getCurrentInstance().getExternalContext().redirect("error_amount.xhtml");
-            }
-            else if("1001".equals(String.valueOf(incoming.getValue(39)))){
-                FacesContext.getCurrentInstance().getExternalContext().redirect("error_expired.xhtml");
-            }
-            else if("1002".equals(String.valueOf(incoming.getValue(39)))){
-                FacesContext.getCurrentInstance().getExternalContext().redirect("error_suspicious.xhtml");
-            }
-            else if("1015".equals(String.valueOf(incoming.getValue(39)))){
-                FacesContext.getCurrentInstance().getExternalContext().redirect("error_reqInvalid.xhtml");
-            }
-            else
-                FacesContext.getCurrentInstance().getExternalContext().redirect("error.xhtml");
-        }
-        else
-            FacesContext.getCurrentInstance().getExternalContext().redirect("error.xhtml");
+
+    public String getTransmissionDateAndTime() {
+        return transmissionDateAndTime;
     }
+
+    public void setTransmissionDateAndTime(String transmissionDateAndTime) {
+        this.transmissionDateAndTime = transmissionDateAndTime;
+    }
+
 }

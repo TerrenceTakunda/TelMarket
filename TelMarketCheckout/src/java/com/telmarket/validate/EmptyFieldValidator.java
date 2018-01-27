@@ -23,59 +23,26 @@ import javax.faces.context.FacesContext;
 import javax.faces.validator.FacesValidator;
 import javax.faces.validator.Validator;
 import javax.faces.validator.ValidatorException;
-import org.apache.commons.lang3.StringUtils;
 
 /**
  *
  * @author terrence takunda munyunguma
  */
 
-@FacesValidator(value = "com.telmarket.validate.CreditCardValidator")
-public class CreditCardValidator implements Validator {
+@FacesValidator(value = "com.telmarket.validate.EmptyFieldValidator")
+public class EmptyFieldValidator implements Validator{
 
     @Override
-    public void validate(FacesContext ctx, UIComponent component, Object value) throws ValidatorException {
+    public void validate(FacesContext context, UIComponent component, Object value) throws ValidatorException {
         
         if(value != null){
+        
+            if(value.toString().trim().equals("")){
             
-            if(StringUtils.isNumericSpace((CharSequence) value) == false){
-                FacesMessage message = new FacesMessage("Please enter a valid Credit Card number!");
+                FacesMessage message = new FacesMessage("This field cannot be empty");
                 message.setSeverity(FacesMessage.SEVERITY_WARN);
                 throw new ValidatorException(message);
             }
-            else{
-                if(checkLuhn((String) value) == false){
-                    FacesMessage message = new FacesMessage("Please enter a valid Credit Card number!");
-                    message.setSeverity(FacesMessage.SEVERITY_WARN);
-                    throw new ValidatorException(message);
-                }
-            }
         }
-            
-    }
-    
-    
-    // checks credit card number for Luhn validation
-    
-    public static boolean checkLuhn(String ccNumber){           
-
-	int sum = 0;
-	boolean alternate = false;
-		
-	for (int i = ccNumber.length()-1; i>=0; i--){
-		
-        	int n = Integer.parseInt(ccNumber.substring(i, i + 1));
-			
-		if (alternate){
-			
-			n *= 2;
-			if (n > 9)
-                            n = (n % 10) + 1;
-		}
-		sum += n;
-		alternate = !alternate;
-	}
-    return (sum % 10 == 0);
     }
 }
-    
