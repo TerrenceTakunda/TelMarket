@@ -35,7 +35,7 @@ import org.jpos.util.SimpleLogListener;
 
 /**
  *
- * @author terrence
+ * @author terrence takunda munyunguma
  */
 @Named(value = "sendPayment")
 @SessionScoped

@@ -15,38 +15,40 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package com.telmarket.validate.util;
+package com.telmarket.security;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.security.Key;
+import javax.crypto.Cipher;
+import javax.crypto.spec.SecretKeySpec;
+import sun.misc.BASE64Encoder;
 
 /**
  *
  * @author terrence takunda munyunguma
  */
 
-public class DatabaseConnection {
+public class EncryptField {
+
+    private byte[] keyValue = null;
     
-    public static Connection getConnection() {
-        
-	try {
-            Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/TelMarket", "root", "");
-            return con;
-	} 
-        catch (ClassNotFoundException | SQLException ex) {
-            System.out.println("Database Connection Error -->" + ex.getMessage());
-            return null;
-	}
+    public EncryptField() {
+        String key = "lv3d9jg37mfbc5cr";
+        keyValue = key.getBytes();
     }
     
-    public static void close(Connection con) {
+    public String encrypt(String data) throws Exception{
         
-	try {
-            con.close();
-	} 
-        catch (SQLException ex) {
-	}
+        Key key = generateKey();
+        Cipher c = Cipher.getInstance("AES");
+        c.init(Cipher.ENCRYPT_MODE, key);
+        byte[] encVal = c.doFinal(data.getBytes());
+        String encryptedValue = new BASE64Encoder().encode(encVal);
+        return encryptedValue;
     }
+    
+    private Key generateKey(){
+        Key key = new SecretKeySpec(keyValue, "AES");
+        return key;
+    }
+    
 }
