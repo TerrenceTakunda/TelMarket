@@ -12,6 +12,7 @@
         </style>
     </h:head>
     <h:body>
+        <div align="center">
         <h:form>
             <h:graphicImage url="#{resource['images:telone-logo_2.jpg']}" alt="company logo"/>
             <h2>Register Now!</h2><br/>
@@ -33,10 +34,8 @@
             <b>Repeat Password:</b><br/>
             <h:inputHidden id="repeat_password"/><br/><br/>
             <h:commandButton id="register" value="Register" action="#{loginOrRegister.createAccount()}"/><br/><br/>
-            <h:commandLink action="/signInSignUp/login.xhtml?faces-redirect=true">
-                <h:outputText value="Already have account?"/>
-            </h:commandLink>
         </h:form>
+        </div>
     </h:body>
 </html>
 

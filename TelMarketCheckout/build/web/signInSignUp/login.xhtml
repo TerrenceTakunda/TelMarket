@@ -12,6 +12,8 @@
         </style>
     </h:head>
     <h:body>
+        
+        <div align="center">
         <h:form>
             <h:graphicImage url="#{resource['images:telone-logo_2.jpg']}" alt="company logo"/>
             <h2>Sign In</h2><br/><br/><br/>
@@ -29,9 +31,11 @@
             <h:commandButton value="Sign In" action="#{loginOrRegister.login()}"/>
             <br/><br/><br/><br/><br/><br/>
             New to TelMarket?<br/>
-            <h:commandLink action="/signInSignUp/register.xhtml?faces-redirect=true">
+            <h:commandLink action="/signInSignUp/register.xhtml?faces-redirect=true" target="_blank">
                 <h:outputText value="Create your Free TelMarket account Now!"/>
             </h:commandLink>
         </h:form>
+        </div>
+        
     </h:body>
 </html>

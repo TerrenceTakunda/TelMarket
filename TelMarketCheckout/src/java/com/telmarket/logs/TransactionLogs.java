@@ -18,7 +18,7 @@
 package com.telmarket.logs;
 
 import com.telmarket.security.EncryptField;
-import com.telmarket.sendcontrol.FlowBean;
+import com.telmarket.flow.FlowBean;
 import com.telmarket.validate.util.DatabaseConnection;
 import javax.inject.Named;
 import javax.faces.bean.SessionScoped;
