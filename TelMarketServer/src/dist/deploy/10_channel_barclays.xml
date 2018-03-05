@@ -4,6 +4,7 @@
 		packager="org.jpos.iso.packager.XML2003Packager">
 	<property name="host" value="localhost" />
 	<property name="port" value="7110" />
+        <property name="timeout" value="30000" />
 	</channel>
 <in>barclays-send</in>
 <out>barclays-receive</out>

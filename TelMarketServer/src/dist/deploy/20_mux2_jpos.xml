@@ -1,5 +1,5 @@
-<mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="BANK2">
-	<in>jpos2-receive</in>
-	<out>jpos2-send</out>
-	<ready>jpos-channel2.ready</ready>
+<mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="MASTERCARD">
+	<in>mastercard-receive</in>
+	<out>mastercard-send</out>
+	<ready>mastercard-channel.ready</ready>
 </mux>

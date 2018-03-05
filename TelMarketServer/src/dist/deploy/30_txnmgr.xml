@@ -27,6 +27,12 @@
             <endpoint   destination = "STANCHAT">
                  406896 440225 440292 456791 543444 547395 548873
             </endpoint>
+            <endpoint   destination = "VISA">
+                 4
+            </endpoint>
+            <endpoint   destination = "MASTERCARD">
+                 51 52 53 54 55
+            </endpoint>
             
 	</participant>
 	<participant class="org.jpos.transaction.participant.QueryHost"/>

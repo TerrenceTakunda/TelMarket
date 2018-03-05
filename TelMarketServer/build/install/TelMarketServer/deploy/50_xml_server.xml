@@ -1,9 +1,9 @@
 <server 	class="org.jpos.q2.iso.QServer" logger="Q2"
-		name="xml-server-1990" realm="xml-server-1990">
+		name="server-1990" realm="server-1990">
 	<attr 	name="port" type="java.lang.Integer">1990</attr>
-	<channel class="org.jpos.iso.channel.XMLChannel"
-		packager="org.jpos.iso.packager.XML2003Packager"
-		type="server"	logger="Q2"	realm="xml-server-1990">
+	<channel class="org.jpos.iso.channel.ASCIIChannel"
+		packager="org.jpos.iso.packager.ISO87APackager"
+		type="server"	logger="Q2"	realm="server-1990">
 	<property name="timeout" value="180000"/>
 	</channel>
 	<request-listener class="org.jpos.iso.IncomingListener" logger="Q2"

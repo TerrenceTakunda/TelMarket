@@ -4,6 +4,7 @@
 		packager="org.jpos.iso.packager.XML2003Packager">
 	<property name="host" value="localhost" />
 	<property name="port" value="7115" />
+        <property name="timeout" value="30000" />
 	</channel>
 <in>stanchat-send</in>
 <out>stanchat-receive</out>
