@@ -94,18 +94,28 @@ public class SendPayment implements Serializable {
             ((LogSource) channel).setLogger(logger, "channel-logger");
             ISOMsg req = authorizationRequest(bean);
             req.setPackager(packager);
-            System.out.println("Request message: "+req);        //for debug
+            System.out.println("Request message: " + req);        //for debug
             byte[] data = req.pack();
-            System.out.println("Request byte message: "+data);
+            System.out.println("Request byte message: " + data);
             req.setDirection(ISOMsg.OUTGOING);
 
             System.out.println("MUX Connection status: " + mux.isConnected());   //for debug
 
             resp = mux.request(req, TIMEOUT);
             System.out.println("Success");      //for debug
-            System.out.println("Responce message: "+String.valueOf(resp));   //for debug
 
-            if (resp == null) {
+            if (resp != null) {
+
+                System.out.println("Responce message: " + String.valueOf(resp));   //for debug
+                
+                if ((resp.hasField(39)) && ("00".equals(String.valueOf(resp.getValue(39))))) {
+                    ISOMsg settle = settlementRequest(bean);
+                    settle.setPackager(packager);
+                    System.out.println(settle);    //for debug
+                    settle.setDirection(ISOMsg.OUTGOING);
+                    mux.send(settle);
+                }
+            } else {
                 ISOMsg rev = reversalRequest(bean);
                 rev.setPackager(packager);
                 System.out.println(rev);        //for debug
@@ -183,7 +193,7 @@ public class SendPayment implements Serializable {
 
         ISOMsg message = new ISOMsg();
         String bit120 = String.valueOf(bean.getCardName() + bean.getAddLine1() + bean.getCity() + bean.getCountry() + bean.getPhone());
-        
+
         try {
             message.setMTI("0400");
             message.set(2, bean.getCardNumber());     //to be provided from form
@@ -241,12 +251,73 @@ public class SendPayment implements Serializable {
         return null;
     }
 
+    private static ISOMsg settlementRequest(FlowBean bean) {
+
+        ISOMsg message = new ISOMsg();
+        String bit120 = String.valueOf(bean.getCardName() + bean.getAddLine1() + bean.getCity() + bean.getCountry() + bean.getPhone());
+
+        try {
+            message.setMTI("0500");
+            message.set(2, bean.getCardNumber());     //to be provided from form
+            message.set(3, "003000");
+//            message.set("3.1", "00");       //purchase
+//            message.set("3.2", "30");       //from account : credit
+//            message.set("3.3", "00");       //to account : default
+            message.set(4, bean.getTotal());        //to be provided by shopping cart
+            message.set(7, temp.format(new Date()));
+//            message.set("7.1", date.format(new Date()));        //MMdd
+//            message.set("7.2", time.format(new Date()));        //HHmmss
+            message.set(11, String.valueOf(new Random().nextInt(999999)));  //STAN to be uique for the day. Use time stamp preferably
+            message.set(14, bean.getExpDate());    //to be provided from form
+            message.set(18, "4814");    //Telecommunication Services including but not limited to prepaid phone services and recurring phone services
+            message.set(22, "812");
+//            message.set("22.1", "81");       //PAN entry via electronic commerce, including chip.
+//            message.set("22.2", "2");        //Terminal does not have PIN entry capability
+            message.set(32, "123456");      //A MasterCard customer ID number that MasterCard assigned to the entity acting as the acquiring institution for a transaction. Contain a six-digit customer ID number assigned by MasterCard that identifies the institution acting as the “acquiring bank” or “merchant bank” for a transaction.
+            message.set(42, "2345hfts=5682jf"); //Number assigned by the acquirer. required for POS transaction types containing DE 3 (Processing Code), subfield 1 (Cardholder Transaction Type Code), values 00 (Purchase)
+            message.set(43, bit43);
+//            message.set("43.1", "TelMarket_Online_Store");  //Merchant Name ("Doing Business As" name)
+//            message.set("43.2", " ");   //Space
+//            message.set("43.3", "Harare_Harare");  //Merchant's City
+//            message.set("43.4", " ");   //Space
+//            message.set("43.5", "ZWE"); //Merchant's State (or Country Code, if not U.S.)
+//            message.set("48.42.01", "210");      //Channel encryption; cardholder certificate not used; UCAF data collection is not supported
+//            message.set("48.47", "MC-MPG/W");   //indicates that the transaction is a MasterCard Payment Gateway transaction
+            message.set(49, "840");     //United States Dollar
+            message.set(61, "12310006600716");
+//            message.set("61.1", "1");       //Unattended terminal
+//            message.set("61.3", "2");       //Off premises of card acceptor facility
+//            message.set("61.4", "5");       //Electronic order (home PC, Internet, mobile phone, PDA)
+//            message.set("61.5", "1");       //Card not present
+//            message.set("61.6", "0");       //Terminal/operator has no card capture capability
+//            message.set("61.7", "0");       //Normal request (original presentment)
+//            message.set("61.8", "0");       //No security concern
+//            message.set("61.10", "6");      //Authorized Level 6 CAT: Electronic commerce
+//            message.set("61.11", "6");      //Key entry only
+//            message.set("61.12", "00");
+//            message.set("61.13", "716");    //country code Zimbabwe
+            message.set(120, bit120);
+//            message.set("120.1", bean.getCardName());    //full name on credid card
+//            message.set("120.2", bean.getAddLine1());      //customer address
+//            message.set("120.3", bean.getCity());     //city
+//            message.set("120.4", bean.getCountry());       //country
+//            message.set("120.5", bean.getPhone());   //phone number
+
+            return message;
+
+        } catch (ISOException ex) {
+            java.util.logging.Logger.getLogger(SendPayment.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+        return null;
+    }
+
     /**
      * **************************************************************************************************************************
      */
     /**
-     * @return ****************************************************************************************************************/
-
+     * @return ***************************************************************************************************************
+     */
     public ISOMsg getResp() {
         return resp;
     }
