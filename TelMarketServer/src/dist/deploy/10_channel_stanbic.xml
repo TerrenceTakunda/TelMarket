@@ -5,6 +5,7 @@
 	<property name="host" value="localhost" />
 	<property name="port" value="7114" />
         <property name="timeout" value="30000" />
+        <property name="socketFactory" value="org.jpos.iso.GenericSSLSocketFactory" />
 	</channel>
 <in>stanbic-send</in>
 <out>stanbic-receive</out>

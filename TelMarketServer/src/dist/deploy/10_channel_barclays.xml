@@ -5,6 +5,7 @@
 	<property name="host" value="localhost" />
 	<property name="port" value="7110" />
         <property name="timeout" value="30000" />
+        <property name="socketFactory" value="org.jpos.iso.GenericSSLSocketFactory" />
 	</channel>
 <in>barclays-send</in>
 <out>barclays-receive</out>

@@ -4,6 +4,7 @@
 		packager="org.jpos.iso.packager.ISO87APackager">
 	<property name="host" value="localhost" />
 	<property name="port" value="1234" />
+	<property name="socketFactory" value="org.jpos.iso.GenericSSLSocketFactory" />
 	</channel>
 <in>visa-send</in>
 <out>visa-receive</out>

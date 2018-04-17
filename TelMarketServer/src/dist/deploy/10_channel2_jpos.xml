@@ -4,6 +4,7 @@
 		packager="org.jpos.iso.packager.ISO87APackager">
 	<property name="host" value="localhost" />
 	<property name="port" value="5678" />
+	<property name="socketFactory" value="org.jpos.iso.GenericSSLSocketFactory" />
 	</channel>
 <in>mastercard-send</in>
 <out>mastercard-receive</out>
