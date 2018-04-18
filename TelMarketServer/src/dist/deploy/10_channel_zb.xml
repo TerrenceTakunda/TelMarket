@@ -6,6 +6,10 @@
 	<property name="port" value="7116" />
         <property name="timeout" value="30000" />
         <property name="socketFactory" value="org.jpos.iso.GenericSSLSocketFactory" />
+        <filter class='org.jpos.iso.filter.ChannelInfoFilter' direction='both'>
+<property name='channel-name' value='1000' />
+<property name='socket-info' value='1001' />
+</filter>
 	</channel>
 <in>zb-send</in>
 <out>zb-receive</out>

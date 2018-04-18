@@ -5,6 +5,10 @@
 	<property name="host" value="localhost" />
 	<property name="port" value="1234" />
 	<property name="socketFactory" value="org.jpos.iso.GenericSSLSocketFactory" />
+	<filter class='org.jpos.iso.filter.ChannelInfoFilter' direction='both'>
+<property name='channel-name' value='1000' />
+<property name='socket-info' value='1001' />
+</filter>
 	</channel>
 <in>visa-send</in>
 <out>visa-receive</out>
