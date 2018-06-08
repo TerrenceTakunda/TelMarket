@@ -35,30 +35,34 @@ You will need at least Java 8, glassfish server 5.0 , primefaces 6.2uR1.jar, jpo
 Git clone the projec repository to a local repo.
 
 ##Checkout Module
-Open Netbeans IDE
-Inside Netbeans, click open existing project.
-Select TelMarketCheckout javaweb project
-Add the following libraries to the project(jpos.jar, primefaces.jar, allthemes.jar , jsf.jar)providen in the 00_lib folder
-Deploy the project on glassfish sever
+/*
+* Open Netbeans IDE
+* Inside Netbeans, click open existing project.
+* Select TelMarketCheckout javaweb project
+* Add the following libraries to the project(jpos.jar, primefaces.jar, allthemes.jar , jsf.jar)providen in the 00_lib folder
+* Deploy the project on glassfish sever
+*/
 
 ##Gateway Sever
-
-In your terminal, change directory to 'TelMarketServer/'
-run the command 'git run'
-
+/*
+* In your terminal, change directory to 'TelMarketServer/'
+* run the command 'git run'
+*/
 OR
-
-In your terminal, change directory to 'TelMarketServer/'
-run the command 'git iA'
-Change directory to '/TelMarketServer/build/install/TelMarketServer/'
-run the command 'bin/q2'
+/*
+* In your terminal, change directory to 'TelMarketServer/'
+* run the command 'git iA'
+* Change directory to '/TelMarketServer/build/install/TelMarketServer/'
+* run the command 'bin/q2'
+*/
 
 ##Endpoint Simmulation
-Inside netbeans IDE click open existing project
-Open java project 'Bank1'
-Open java project 'Bank2'
-Run both projects
-
+/*
+* Inside netbeans IDE click open existing project
+* Open java project 'Bank1'
+* Open java project 'Bank2'
+* Run both projects
+*/
 
 ALL DONE
 The Payment gateway PoC should now be running on your local sever
