@@ -4,11 +4,6 @@
 		packager="org.jpos.iso.packager.ISO87APackager">
 	<property name="host" value="localhost" />
 	<property name="port" value="5678" />
-	<property name="socketFactory" value="org.jpos.iso.GenericSSLSocketFactory" />
-	<filter class='org.jpos.iso.filter.ChannelInfoFilter' direction='both'>
-<property name='channel-name' value='1000' />
-<property name='socket-info' value='1001' />
-</filter>
 	</channel>
 <in>mastercard-send</in>
 <out>mastercard-receive</out>

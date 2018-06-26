@@ -5,11 +5,6 @@
 		packager="org.jpos.iso.packager.ISO87APackager"
 		type="server"	logger="Q2"	realm="server-1990">
 	<property name="timeout" value="180000"/>
-	<property name="socketFactory" value="org.jpos.iso.GenericSSLSocketFactory" />
-        <filter class='org.jpos.iso.filter.ChannelInfoFilter' direction='both'>
-<property name='channel-name' value='1000' />
-<property name='socket-info' value='1001' />
-</filter>
 	</channel>
 	<request-listener class="org.jpos.iso.IncomingListener" logger="Q2"
 		realm="incoming-request-listener">
