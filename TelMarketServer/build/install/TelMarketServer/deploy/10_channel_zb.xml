@@ -1,7 +1,7 @@
 <channel-adaptor name='zb-channel' class="org.jpos.q2.iso.ChannelAdaptor"
 		logger="Q2">
-	<channel class="org.jpos.iso.channel.XMLChannel"
-		packager="org.jpos.iso.packager.XML2003Packager">
+	<channel class="org.jpos.iso.channel.ASCIIChannel"
+		packager="org.jpos.iso.packager.ISO87APackager">
 	<property name="host" value="localhost" />
 	<property name="port" value="7116" />
         <property name="timeout" value="30000" />

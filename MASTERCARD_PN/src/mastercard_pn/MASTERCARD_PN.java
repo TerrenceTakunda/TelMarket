@@ -16,7 +16,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package bank_stanchat;
+package mastercard_pn;
 
 import java.io.IOException;
 import java.util.logging.Level;
@@ -37,20 +37,21 @@ import org.jpos.util.SimpleLogListener;
  *
  * @author terrence
  */
-public class BANK_STANCHAT implements ISORequestListener{
+public class MASTERCARD_PN implements ISORequestListener {
 
     public static void main(String[] args) throws ISOException {
         
+//        GenericPackager packager = new GenericPackager("MasterCardPackager.xml");
         ISOPackager packager = new ISO87APackager();
         Logger logger = new Logger();
         logger.addListener(new SimpleLogListener(System.out));
-        ServerChannel sc = new ASCIIChannel("localhost", 7115, packager);
+        ServerChannel sc = new ASCIIChannel("localhost", 5678, packager);
 
-        ((LogSource)sc).setLogger(logger, "stanbic-bank-server-logger");
+        ((LogSource)sc).setLogger(logger, "MASTERCARD_PN-server-logger");
         
-        ISOServer server = new ISOServer(7115, sc, null);
+        ISOServer server = new ISOServer(5678, sc, null);
         server.setLogger(logger, "server-logger");
-        server.addISORequestListener(new BANK_STANCHAT());
+        server.addISORequestListener(new MASTERCARD_PN());
         
         new Thread(server).start();
         
@@ -70,7 +71,7 @@ public class BANK_STANCHAT implements ISORequestListener{
             isos.send(m);
         }
         catch(IOException | ISOException ex){
-            java.util.logging.Logger.getLogger(BANK_STANCHAT.class.getName()).log(Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MASTERCARD_PN.class.getName()).log(Level.SEVERE, null, ex);
         }
         return true;
     }

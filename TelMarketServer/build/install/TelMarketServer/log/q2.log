@@ -12828,3 +12828,2872 @@ q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
   </trace>
 </log>
 </logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2018-06-28T05:25:30.123148">
+  <info>
+    Q2 started, deployDir=/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:37.863012" lifespan="7406ms">
+  <version>
+    jPOS 2.1.1 master/2a2874f (2017-11-13 11:09:54 ART)
+TelMarketServer 2.1.1 unknown/unknown (2018-03-05 05:58:33 CAT)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:38.084059" lifespan="113ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel1_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:38.188173" lifespan="85ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel2_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:38.254233" lifespan="50ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_barclays.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:38.343877" lifespan="62ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_cbz.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:38.432322" lifespan="72ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_fbc.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:38.486673" lifespan="41ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_nmb.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:38.555559" lifespan="54ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_stanbic.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:38.618048" lifespan="56ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_stanchat.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:38.687724" lifespan="55ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_zb.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:38.996607" lifespan="291ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux1_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:39.038849" lifespan="34ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux2_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:39.083433" lifespan="33ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_barclays.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:39.150211" lifespan="52ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_cbz.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:39.195335" lifespan="37ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_fbc.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:39.272539" lifespan="59ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_nmb.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:39.336808" lifespan="41ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_stanbic.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:39.404538" lifespan="53ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_stanchat.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:39.477482" lifespan="49ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_zb.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.participant.SelectDestination" at="2018-06-28T05:25:40.375270">
+  <config>
+    13:4027230000000000000..4027239999999999999 [NMB]
+    13:4068960000000000000..4068969999999999999 [STANCHAT]
+    13:4069090000000000000..4069099999999999999 [STANBIC]
+    13:4069130000000000000..4069139999999999999 [STANBIC]
+    13:4069300000000000000..4069309999999999999 [STANBIC]
+    13:4211580000000000000..4211589999999999999 [NMB]
+    13:4211590000000000000..4211599999999999999 [NMB]
+    13:4238030000000000000..4238039999999999999 [NMB]
+    13:4238150000000000000..4238159999999999999 [NMB]
+    13:4243470000000000000..4243479999999999999 [STANBIC]
+    13:4243480000000000000..4243489999999999999 [STANBIC]
+    13:4290670000000000000..4290679999999999999 [CBZ]
+    13:4290680000000000000..4290689999999999999 [CBZ]
+    13:4290810000000000000..4290819999999999999 [CBZ]
+    13:4293260000000000000..4293269999999999999 [NMB]
+    13:4295020000000000000..4295029999999999999 [NMB]
+    13:4295920000000000000..4295929999999999999 [CBZ]
+    13:4295930000000000000..4295939999999999999 [CBZ]
+    13:4330030000000000000..4330039999999999999 [ZB]
+    13:4330040000000000000..4330049999999999999 [ZB]
+    13:4389140000000000000..4389149999999999999 [BARCLAYS]
+    13:4402250000000000000..4402259999999999999 [STANCHAT]
+    13:4402920000000000000..4402929999999999999 [STANCHAT]
+    13:4405710000000000000..4405719999999999999 [BARCLAYS]
+    13:4459720000000000000..4459729999999999999 [ZB]
+    13:4564840000000000000..4564849999999999999 [BARCLAYS]
+    13:4567910000000000000..4567919999999999999 [STANCHAT]
+    13:4658800000000000000..4658809999999999999 [ZB]
+    13:4864240000000000000..4864249999999999999 [ZB]
+    13:4874570000000000000..4874579999999999999 [CBZ]
+    13:4874580000000000000..4874589999999999999 [CBZ]
+    13:4874970000000000000..4874979999999999999 [CBZ]
+    13:5333030000000000000..5333039999999999999 [FBC]
+    13:5370270000000000000..5370279999999999999 [FBC]
+    13:5402140000000000000..5402149999999999999 [BARCLAYS]
+    13:5409830000000000000..5409839999999999999 [BARCLAYS]
+    13:5432530000000000000..5432539999999999999 [BARCLAYS]
+    13:5434440000000000000..5434449999999999999 [STANCHAT]
+    13:5473950000000000000..5473959999999999999 [STANCHAT]
+    13:5488730000000000000..5488739999999999999 [STANCHAT]
+    17:5000000000000000000..5099999999999999999 [MASTERCARD]
+    17:5100000000000000000..5199999999999999999 [MASTERCARD]
+    17:5200000000000000000..5299999999999999999 [MASTERCARD]
+    17:5300000000000000000..5399999999999999999 [MASTERCARD]
+    17:5400000000000000000..5499999999999999999 [MASTERCARD]
+    17:5500000000000000000..5599999999999999999 [MASTERCARD]
+    18:4000000000000000000..4999999999999999999 [VISA]
+  </config>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:40.651673" lifespan="1162ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/30_txnmgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:40.718297" lifespan="62ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:25:40.780034" lifespan="57ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2018-06-28T05:25:41.815576" lifespan="37ms">
+  <info>
+    start Thread[Thread-21,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2018-06-28T05:25:41.821494">
+  <info>
+    start Thread[Thread-22,5,main]
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-06-28T05:25:41.986996">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="server-1990.server" at="2018-06-28T05:25:41.997292">
+  <iso-server>
+    listening on port 1990
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-06-28T05:25:42.017123">
+  <info>
+               OS: Linux (4.16.0-parrot12-amd64)
+             Java: 10.0.1 (Oracle Corporation) AES-secure
+     process name: 4735@parrot
+             host: parrot/127.0.1.1
+              cwd: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer
+       free space: 37.9 GiB
+     usable space: 29.2 GiB
+          version: 2.1.1 (2a2874f)
+         instance: cd61d0cb-9a07-4d38-949a-f08ee12e911a
+           uptime: 00:00:16.278 (4.620000)
+       processors: 2
+           drift : 0
+    memory(t/u/f): 88/10/77
+         encoding: UTF-8
+         timezone: Africa/Harare (Central Africa Time) +02:00
+    watch service: sun.nio.fs.LinuxWatchService
+            clock: 1530156343 2018-06-28T03:25:42.058264Z
+     thread count: 35
+     peak threads: 35
+     user threads: 30
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[RMI TCP Accept-0,5,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-cd61d0cb-9a07-4d38-949a-f08ee12e911a,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-visa-send,5,main]
+            Thread[channel-receiver-visa-receive,5,main]
+            Thread[channel-sender-mastercard-send,5,main]
+            Thread[channel-receiver-mastercard-receive,5,main]
+            Thread[channel-sender-barclays-send,5,main]
+            Thread[channel-receiver-barclays-receive,5,main]
+            Thread[channel-sender-cbz-send,5,main]
+            Thread[channel-receiver-cbz-receive,5,main]
+            Thread[channel-sender-fbc-send,5,main]
+            Thread[channel-receiver-fbc-receive,5,main]
+            Thread[channel-sender-nmb-send,5,main]
+            Thread[channel-receiver-nmb-receive,5,main]
+            Thread[channel-sender-stanbic-send,5,main]
+            Thread[channel-receiver-stanbic-receive,5,main]
+            Thread[channel-sender-stanchat-send,5,main]
+            Thread[channel-receiver-stanchat-receive,5,main]
+            Thread[channel-sender-zb-send,5,main]
+            Thread[channel-receiver-zb-receive,5,main]
+            Thread[Timer-1,5,main]
+            Thread[txnmgr-0:idle,5,main]
+            Thread[txnmgr-1:idle,5,main]
+            Thread[pool-4-thread-1,5,main]
+            Thread[Thread-24,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[server-1990-ThreadPool.PooledThread-0,5,server-1990-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      mux.STANCHAT: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      Q2: org.jpos.q2.Q2
+      mux.MASTERCARD: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      channel.mastercard-channel: org.jpos.iso.channel.ASCIIChannel
+      stanchat-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      channel.nmb-channel: org.jpos.iso.channel.XMLChannel
+      channel.stanbic-channel: org.jpos.iso.channel.XMLChannel
+      visa-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      zb-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      server.server-1990: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      fbc-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      mux.VISA: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      channel.barclays-channel: org.jpos.iso.channel.XMLChannel
+      mastercard-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      mux.NMB: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      mux.STANBIC: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      tspace:default: org.jpos.space.TSpace
+        <key count='1'>$TAILLOCK.592677247</key>
+         key-count: 1
+            gcinfo: 0,0
+      server-1990: org.jpos.q2.iso.QServer
+      barclays-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      mux.CBZ: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      nmb-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      channel.visa-channel: org.jpos.iso.channel.ASCIIChannel
+      stanbic-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      mux.ZB: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      txnmgr: org.jpos.transaction.TransactionManager
+        in-transit=0/0, head=1, tail=1, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=0, avg=0.00
+      tspace:org.jpos.transaction.TransactionManager@2353897f: org.jpos.space.TSpace
+        <key count='1'>$TAIL</key>
+        <key count='1'>$HEAD</key>
+         key-count: 2
+            gcinfo: 0,0
+      channel.fbc-channel: org.jpos.iso.channel.XMLChannel
+      channel.stanchat-channel: org.jpos.iso.channel.XMLChannel
+      logger.Q2: org.jpos.util.Logger
+      mux.FBC: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      mux.BARCLAYS: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      cbz-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      channel.zb-channel: org.jpos.iso.channel.XMLChannel
+      channel.cbz-channel: org.jpos.iso.channel.XMLChannel
+  </info>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:31:21.519047">
+  <warn>
+    channel-receiver-mastercard-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:31:31.472656">
+  <warn>
+    channel-receiver-visa-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:52164" at="2018-06-28T05:31:49.123617">
+  <session-start/>
+</log>
+<log realm="server-1990/127.0.0.1:52164" at="2018-06-28T05:31:49.221819" lifespan="97ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0100"/>
+      <field id="2" value="5111111111111118"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628053149"/>
+      <field id="11" value="087304"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="server-1990/127.0.0.1:52164" at="2018-06-28T05:31:49.746587" lifespan="484ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0500"/>
+      <field id="2" value="5111111111111118"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628053149"/>
+      <field id="11" value="355427"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="server-1990/127.0.0.1:52164" at="2018-06-28T05:31:49.698893" lifespan="11ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0110"/>
+      <field id="2" value="5111111111111118"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628053149"/>
+      <field id="11" value="087304"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="39" value="00"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="server-1990/127.0.0.1:52164" at="2018-06-28T05:31:49.806393" lifespan="7ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0510"/>
+      <field id="2" value="5111111111111118"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628053149"/>
+      <field id="11" value="355427"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="39" value="00"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2018-06-28T05:31:49.811543" lifespan="54ms">
+  <commit>
+    txnmgr-1:idle:2
+    <context>
+      TIMESTAMP: Thu Jun 28 05:31:49 CAT 2018
+      SOURCE: org.jpos.iso.channel.ASCIIChannel@73eee128
+      REQUEST: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.ISO87APackager -->
+         <field id="0" value="0500"/>
+         <field id="2" value="5111111111111118"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628053149"/>
+         <field id="11" value="355427"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+      DESTINATION: MASTERCARD
+      RESULT: 
+       <result/>
+      
+      :paused_transaction: 
+       id: 2
+      
+      RESPONSE: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.ISO87APackager -->
+         <field id="0" value="0510"/>
+         <field id="2" value="5111111111111118"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628053149"/>
+         <field id="11" value="355427"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="39" value="00"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+    </context>
+            prepare: o.j.t.p.SelectDestination PREPARED READONLY NO_JOIN
+            prepare: o.j.t.p.QueryHost PREPARED PAUSE READONLY NO_JOIN
+            prepare: o.j.t.p.SendResponse PREPARED READONLY
+             commit: o.j.t.p.SendResponse
+     in-transit=1, head=3, tail=3, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=0, avg=0.00, elapsed=54ms
+    <profiler>
+      prepare: o.j.t.p.SelectDestination [1.2/1.2]
+      prepare: o.j.t.p.QueryHost [0.6/1.9]
+      resume [39.0/40.9]
+      prepare: o.j.t.p.SendResponse [0.8/41.7]
+       commit: o.j.t.p.SendResponse [11.1/52.9]
+      end [68.7/121.7]
+    </profiler>
+  </commit>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2018-06-28T05:31:49.823371" lifespan="571ms">
+  <commit>
+    txnmgr-0:idle:1
+    <context>
+      TIMESTAMP: Thu Jun 28 05:31:49 CAT 2018
+      SOURCE: org.jpos.iso.channel.ASCIIChannel@73eee128
+      REQUEST: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.ISO87APackager -->
+         <field id="0" value="0100"/>
+         <field id="2" value="5111111111111118"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628053149"/>
+         <field id="11" value="087304"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+      DESTINATION: MASTERCARD
+      RESULT: 
+       <result/>
+      
+      :paused_transaction: 
+       id: 1
+      
+      RESPONSE: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.ISO87APackager -->
+         <field id="0" value="0110"/>
+         <field id="2" value="5111111111111118"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628053149"/>
+         <field id="11" value="087304"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="39" value="00"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+    </context>
+            prepare: o.j.t.p.SelectDestination PREPARED READONLY NO_JOIN
+            prepare: o.j.t.p.QueryHost PREPARED PAUSE READONLY NO_JOIN
+            prepare: o.j.t.p.SendResponse PREPARED READONLY
+             commit: o.j.t.p.SendResponse
+     in-transit=0, head=3, tail=3, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=0, avg=0.00, elapsed=570ms
+    <profiler>
+      prepare: o.j.t.p.SelectDestination [37.4/37.4]
+      prepare: o.j.t.p.QueryHost [110.1/147.5]
+      resume [260.9/408.5]
+      prepare: o.j.t.p.SendResponse [0.7/409.3]
+       commit: o.j.t.p.SendResponse [130.1/539.4]
+      end [87.2/626.7]
+    </profiler>
+  </commit>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:52434" at="2018-06-28T05:34:18.923897">
+  <session-start/>
+</log>
+<log realm="server-1990/127.0.0.1:52434" at="2018-06-28T05:34:18.943806" lifespan="18ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0100"/>
+      <field id="2" value="4111111111111111"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628053418"/>
+      <field id="11" value="528402"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="server-1990/127.0.0.1:52434" at="2018-06-28T05:34:19.227107" lifespan="256ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0500"/>
+      <field id="2" value="4111111111111111"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628053419"/>
+      <field id="11" value="636830"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="server-1990/127.0.0.1:52434" at="2018-06-28T05:34:19.181993" lifespan="3ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0110"/>
+      <field id="2" value="4111111111111111"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628053418"/>
+      <field id="11" value="528402"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="39" value="00"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="server-1990/127.0.0.1:52434" at="2018-06-28T05:34:19.332410" lifespan="6ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0510"/>
+      <field id="2" value="4111111111111111"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628053419"/>
+      <field id="11" value="636830"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="39" value="00"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2018-06-28T05:34:19.284702" lifespan="316ms">
+  <commit>
+    txnmgr-1:idle:3
+    <context>
+      TIMESTAMP: Thu Jun 28 05:34:18 CAT 2018
+      SOURCE: org.jpos.iso.channel.ASCIIChannel@6cadfd1b
+      REQUEST: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.ISO87APackager -->
+         <field id="0" value="0100"/>
+         <field id="2" value="4111111111111111"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628053418"/>
+         <field id="11" value="528402"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+      DESTINATION: VISA
+      RESULT: 
+       <result/>
+      
+      :paused_transaction: 
+       id: 3
+      
+      RESPONSE: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.ISO87APackager -->
+         <field id="0" value="0110"/>
+         <field id="2" value="4111111111111111"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628053418"/>
+         <field id="11" value="528402"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="39" value="00"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+    </context>
+            prepare: o.j.t.p.SelectDestination PREPARED READONLY NO_JOIN
+            prepare: o.j.t.p.QueryHost PREPARED PAUSE READONLY NO_JOIN
+            prepare: o.j.t.p.SendResponse PREPARED READONLY
+             commit: o.j.t.p.SendResponse
+     in-transit=1, head=5, tail=4, paused=1, outstanding=0, active-sessions=2/128, tps=0, peak=2, avg=0.00, elapsed=309ms
+    <profiler>
+      prepare: o.j.t.p.SelectDestination [1.2/1.2]
+      prepare: o.j.t.p.QueryHost [11.9/13.2]
+      resume [195.1/208.3]
+      prepare: o.j.t.p.SendResponse [1.1/209.5]
+       commit: o.j.t.p.SendResponse [80.7/290.3]
+      end [39.9/330.3]
+    </profiler>
+  </commit>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2018-06-28T05:34:19.338026" lifespan="89ms">
+  <commit>
+    txnmgr-1:idle:4
+    <context>
+      TIMESTAMP: Thu Jun 28 05:34:19 CAT 2018
+      SOURCE: org.jpos.iso.channel.ASCIIChannel@6cadfd1b
+      REQUEST: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.ISO87APackager -->
+         <field id="0" value="0500"/>
+         <field id="2" value="4111111111111111"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628053419"/>
+         <field id="11" value="636830"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+      DESTINATION: VISA
+      RESULT: 
+       <result/>
+      
+      :paused_transaction: 
+       id: 4
+      
+      RESPONSE: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.ISO87APackager -->
+         <field id="0" value="0510"/>
+         <field id="2" value="4111111111111111"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628053419"/>
+         <field id="11" value="636830"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="39" value="00"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+    </context>
+            prepare: o.j.t.p.SelectDestination PREPARED READONLY NO_JOIN
+            prepare: o.j.t.p.QueryHost PREPARED PAUSE READONLY NO_JOIN
+            prepare: o.j.t.p.SendResponse PREPARED READONLY
+             commit: o.j.t.p.SendResponse
+     in-transit=0, head=5, tail=5, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=2, avg=0.00, elapsed=88ms
+    <profiler>
+      prepare: o.j.t.p.SelectDestination [1.1/1.1]
+      prepare: o.j.t.p.QueryHost [0.6/1.8]
+      resume [73.8/75.6]
+      prepare: o.j.t.p.SendResponse [0.6/76.2]
+       commit: o.j.t.p.SendResponse [10.3/86.6]
+      end [4.2/90.8]
+    </profiler>
+  </commit>
+</log>
+<log realm="server-1990/127.0.0.1:52164" at="2018-06-28T05:34:49.931500" lifespan="180141ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:52164" at="2018-06-28T05:34:49.933374">
+  <session-end/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:52490" at="2018-06-28T05:34:49.985462">
+  <session-start/>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:36:21.561206">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:36:49.901737">
+  <warn>
+    channel-receiver-mastercard-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:37:01.613577">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="server-1990/127.0.0.1:52434" at="2018-06-28T05:37:19.333231" lifespan="180100ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:52434" at="2018-06-28T05:37:19.335373">
+  <session-end/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:52750" at="2018-06-28T05:37:19.340261">
+  <session-start/>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:37:41.658396">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:52794" at="2018-06-28T05:37:42.104553">
+  <session-start/>
+</log>
+<log realm="server-1990/127.0.0.1:52794" at="2018-06-28T05:37:42.118978" lifespan="13ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0100"/>
+      <field id="2" value="5402140000000007"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628053742"/>
+      <field id="11" value="899018"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="server-1990/127.0.0.1:52490" at="2018-06-28T05:37:50.089185" lifespan="180102ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:52490" at="2018-06-28T05:37:50.090446">
+  <session-end/>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:37:52.168812">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:52816" at="2018-06-28T05:37:55.095679">
+  <session-start/>
+</log>
+<log realm="server-1990/127.0.0.1:52794" at="2018-06-28T05:38:12.094859" lifespan="29966ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0400"/>
+      <field id="2" value="5402140000000007"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628053812"/>
+      <field id="11" value="684105"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="39" value="68"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:38:12.140273">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2018-06-28T05:38:12.142308" lifespan="30016ms">
+  <commit>
+    txnmgr-0:idle:5
+    <context>
+      TIMESTAMP: Thu Jun 28 05:37:42 CAT 2018
+      SOURCE: org.jpos.iso.channel.ASCIIChannel@2fcdbd84
+      REQUEST: 
+       <isomsg>
+         <!-- org.jpos.iso.packager.XML2003Packager -->
+         <field id="0" value="0100"/>
+         <field id="2" value="5402140000000007"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628053742"/>
+         <field id="11" value="899018"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+      DESTINATION: BARCLAYS
+      RESULT: 
+       <result/>
+      
+      :paused_transaction: 
+       id: 5
+      
+      LOGEVT: 
+        <info>
+          RESPONSE not present
+        </info>
+      
+    </context>
+            prepare: o.j.t.p.SelectDestination PREPARED READONLY NO_JOIN
+            prepare: o.j.t.p.QueryHost PREPARED PAUSE READONLY NO_JOIN
+            prepare: o.j.t.p.SendResponse PREPARED READONLY
+             commit: o.j.t.p.SendResponse
+     in-transit=1, head=7, tail=6, paused=1, outstanding=0, active-sessions=2/128, tps=0, peak=2, avg=0.01, elapsed=30006ms
+    <profiler>
+      prepare: o.j.t.p.SelectDestination [1.0/1.0]
+      prepare: o.j.t.p.QueryHost [10008.5/10009.6]
+      resume [19994.9/30004.5]
+      prepare: o.j.t.p.SendResponse [0.5/30005.1]
+       commit: o.j.t.p.SendResponse [0.6/30005.8]
+      end [15.2/30021.0]
+    </profiler>
+  </commit>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2018-06-28T05:38:42.113255" lifespan="30004ms">
+  <commit>
+    txnmgr-0:idle:6
+    <context>
+      TIMESTAMP: Thu Jun 28 05:38:12 CAT 2018
+      SOURCE: org.jpos.iso.channel.ASCIIChannel@2fcdbd84
+      REQUEST: 
+       <isomsg>
+         <!-- org.jpos.iso.packager.XML2003Packager -->
+         <field id="0" value="0400"/>
+         <field id="2" value="5402140000000007"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628053812"/>
+         <field id="11" value="684105"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="39" value="68"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+      DESTINATION: BARCLAYS
+      RESULT: 
+       <result/>
+      
+      :paused_transaction: 
+       id: 6
+      
+      LOGEVT: 
+        <info>
+          RESPONSE not present
+        </info>
+      
+    </context>
+            prepare: o.j.t.p.SelectDestination PREPARED READONLY NO_JOIN
+            prepare: o.j.t.p.QueryHost PREPARED PAUSE READONLY NO_JOIN
+            prepare: o.j.t.p.SendResponse PREPARED READONLY
+             commit: o.j.t.p.SendResponse
+     in-transit=0, head=7, tail=7, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=2, avg=0.01, elapsed=30004ms
+    <profiler>
+      prepare: o.j.t.p.SelectDestination [0.9/0.9]
+      prepare: o.j.t.p.QueryHost [0.6/1.6]
+      resume [30000.6/30002.3]
+      prepare: o.j.t.p.SendResponse [0.6/30002.9]
+       commit: o.j.t.p.SendResponse [0.5/30003.5]
+      end [2.8/30006.3]
+    </profiler>
+  </commit>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:38:52.186507">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:39:19.423239">
+  <warn>
+    channel-receiver-visa-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:39:32.230807">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:40:12.279372">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="server-1990/127.0.0.1:52750" at="2018-06-28T05:40:19.453534" lifespan="180101ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:52750" at="2018-06-28T05:40:19.454748">
+  <session-end/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53060" at="2018-06-28T05:40:24.460547">
+  <session-start/>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:40:52.327034">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="server-1990/127.0.0.1:52816" at="2018-06-28T05:40:55.202534" lifespan="180105ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:52816" at="2018-06-28T05:40:55.203666">
+  <session-end/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53112" at="2018-06-28T05:41:00.209630">
+  <session-start/>
+</log>
+<log realm="server-1990/127.0.0.1:52794" at="2018-06-28T05:41:12.206855" lifespan="180099ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:52794" at="2018-06-28T05:41:12.208912">
+  <session-end/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53144" at="2018-06-28T05:41:12.229147">
+  <session-start/>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:41:32.388324">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:42:00.010327">
+  <warn>
+    channel-receiver-mastercard-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:42:12.428220">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:42:52.467306">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="server-1990/127.0.0.1:53060" at="2018-06-28T05:43:24.573247" lifespan="180111ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53060" at="2018-06-28T05:43:24.575068">
+  <session-end/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53356" at="2018-06-28T05:43:29.578082">
+  <session-start/>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:43:32.512370">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="server-1990/127.0.0.1:53112" at="2018-06-28T05:44:00.316012" lifespan="180105ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53112" at="2018-06-28T05:44:00.317216">
+  <session-end/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53420" at="2018-06-28T05:44:05.323173">
+  <session-start/>
+</log>
+<log realm="server-1990/127.0.0.1:53144" at="2018-06-28T05:44:12.337323" lifespan="180106ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53144" at="2018-06-28T05:44:12.346203">
+  <session-end/>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:44:12.557099">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53438" at="2018-06-28T05:44:17.342722">
+  <session-start/>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:44:29.536791">
+  <warn>
+    channel-receiver-visa-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:30.765819">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.694741">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/99_sysmon.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-06-28T05:44:32.696599">
+  <info>
+    Stopping SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-06-28T05:44:32.698136">
+  <info>
+               OS: Linux (4.16.0-parrot12-amd64)
+             Java: 10.0.1 (Oracle Corporation) AES-secure
+     process name: 4735@parrot
+             host: parrot/127.0.1.1
+              cwd: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer
+       free space: 37.9 GiB
+     usable space: 29.2 GiB
+          version: 2.1.1 (2a2874f)
+         instance: cd61d0cb-9a07-4d38-949a-f08ee12e911a
+           uptime: 00:19:06.406 (1.750000)
+       processors: 2
+           drift : 0
+    memory(t/u/f): 106/10/95
+         encoding: UTF-8
+         timezone: Africa/Harare (Central Africa Time) +02:00
+    watch service: sun.nio.fs.LinuxWatchService
+            clock: 1530157472 2018-06-28T03:44:32.699699Z
+     thread count: 42
+     peak threads: 43
+     user threads: 36
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[RMI TCP Accept-0,5,system]
+            Thread[SIGINT handler,9,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-cd61d0cb-9a07-4d38-949a-f08ee12e911a,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-visa-send,5,main]
+            Thread[channel-receiver-visa-receive,5,main]
+            Thread[channel-sender-mastercard-send,5,main]
+            Thread[channel-receiver-mastercard-receive,5,main]
+            Thread[channel-sender-barclays-send,5,main]
+            Thread[channel-receiver-barclays-receive,5,main]
+            Thread[channel-sender-cbz-send,5,main]
+            Thread[channel-receiver-cbz-receive,5,main]
+            Thread[channel-sender-fbc-send,5,main]
+            Thread[channel-receiver-fbc-receive,5,main]
+            Thread[channel-sender-nmb-send,5,main]
+            Thread[channel-receiver-nmb-receive,5,main]
+            Thread[channel-sender-stanbic-send,5,main]
+            Thread[channel-receiver-stanbic-receive,5,main]
+            Thread[channel-sender-stanchat-send,5,main]
+            Thread[channel-receiver-stanchat-receive,5,main]
+            Thread[channel-sender-zb-send,5,main]
+            Thread[channel-receiver-zb-receive,5,main]
+            Thread[Timer-1,5,main]
+            Thread[txnmgr-0:idle,5,main]
+            Thread[txnmgr-1:idle,5,main]
+            Thread[pool-4-thread-1,5,main]
+            Thread[Thread-24,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[pool-5-thread-1,5,main]
+            Thread[pool-6-thread-1,5,main]
+            Thread[pool-7-thread-1,5,main]
+            Thread[Q2-ShutdownHook,5,main]
+            Thread[server-1990-ThreadPool.PooledThread-0-running,5,server-1990-ThreadPool-0]
+            Thread[server-1990-ThreadPool.PooledThread-1-running,5,server-1990-ThreadPool-0]
+            Thread[server-1990-ThreadPool.PooledThread-2-running,5,server-1990-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      mux.STANCHAT: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      Q2: org.jpos.q2.Q2
+      mux.MASTERCARD: org.jpos.q2.iso.QMUX
+        tx=2, rx=2, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=1530156709797, idle=762911ms
+        all min=39, max=299, mean=169.0000 stddev=130.0000 90%=299, 99%=299, 99.9%=299, 99.99%=299 tot=2 size=10752
+        ok min=39, max=299, mean=169.0000 stddev=130.0000 90%=299, 99%=299, 99.9%=299, 99.99%=299 tot=2 size=10752
+      channel.mastercard-channel: org.jpos.iso.channel.ASCIIChannel
+      stanchat-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      channel.nmb-channel: org.jpos.iso.channel.XMLChannel
+      channel.stanbic-channel: org.jpos.iso.channel.XMLChannel
+      visa-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=2, rx=2, connects=3, last=1530156859323, idle=613414ms
+      zb-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      server.server-1990: org.jpos.iso.ISOServer
+        connected=3, rx=0, tx=0, last=1530157092107, idle=380630ms
+          127.0.0.1:53438: rx=0, tx=0, last=1530157092107
+          127.0.0.1:53356: rx=0, tx=0, last=1530157092107
+          127.0.0.1:53420: rx=0, tx=0, last=1530157092107
+      fbc-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      mux.VISA: org.jpos.q2.iso.QMUX
+        tx=2, rx=2, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=1530156859323, idle=613415ms
+        all min=73, max=201, mean=137.0000 stddev=64.0000 90%=201, 99%=201, 99.9%=201, 99.99%=201 tot=2 size=10752
+        ok min=73, max=201, mean=137.0000 stddev=64.0000 90%=201, 99%=201, 99.9%=201, 99.99%=201 tot=2 size=10752
+      channel.barclays-channel: org.jpos.iso.channel.XMLChannel
+      mastercard-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=2, rx=2, connects=4, last=1530156709797, idle=762953ms
+      mux.NMB: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      mux.STANBIC: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      tspace:default: org.jpos.space.TSpace
+        <key count='1'>visa-channel.reconnect</key>
+        <key count='1'>mastercard-channel.ready</key>
+        <key count='1'>$TAILLOCK.592677247</key>
+        <key count='1'>barclays-channel.ready</key>
+         key-count: 4
+            gcinfo: 1,0
+      server-1990: org.jpos.q2.iso.QServer
+      barclays-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=2, rx=0, connects=15, last=0
+      mux.CBZ: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      nmb-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      channel.visa-channel: org.jpos.iso.channel.ASCIIChannel
+      stanbic-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      mux.ZB: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      txnmgr: org.jpos.transaction.TransactionManager
+        in-transit=0/0, head=7, tail=7, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=2, avg=0.01
+        o.j.t.p.QueryHost-prepare min=1, max=10047, mean=1687.6667 stddev=3724.7035 90%=10047, 99%=10047, 99.9%=10047, 99.99%=10047 tot=6 size=10752
+        o.j.t.p.QueryHost-resume min=38, max=30079, mean=8435.6667 stddev=12078.8450 90%=30079, 99%=30079, 99.9%=30079, 99.99%=30079 tot=6 size=10752
+        o.j.t.p.SelectDestination-prepare min=1, max=36, mean=7.0000 stddev=12.9743 90%=36, 99%=36, 99.9%=36, 99.99%=36 tot=6 size=10752
+        o.j.t.p.SendResponse-commit min=1, max=130, mean=38.8333 stddev=49.3876 90%=130, 99%=130, 99.9%=130, 99.99%=130 tot=6 size=10752
+        o.j.t.p.SendResponse-prepare min=1, max=1, mean=0.6667 stddev=0.4714 90%=1, 99%=1, 99.9%=1, 99.99%=1 tot=6 size=10752
+      tspace:org.jpos.transaction.TransactionManager@2353897f: org.jpos.space.TSpace
+        <key count='1'>$TAIL</key>
+        <key count='1'>$HEAD</key>
+         key-count: 2
+            gcinfo: 0,0
+      channel.fbc-channel: org.jpos.iso.channel.XMLChannel
+      channel.stanchat-channel: org.jpos.iso.channel.XMLChannel
+      logger.Q2: org.jpos.util.Logger
+      mux.FBC: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      mux.BARCLAYS: org.jpos.q2.iso.QMUX
+        tx=2, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+        all min=19968, max=30079, mean=25024.0000 stddev=4992.0000 90%=30079, 99%=30079, 99.9%=30079, 99.99%=30079 tot=2 size=10752
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      cbz-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      channel.zb-channel: org.jpos.iso.channel.XMLChannel
+      channel.cbz-channel: org.jpos.iso.channel.XMLChannel
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.789377" lifespan="90ms">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/99_sysmon.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.795599">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/50_xml_server.xml
+  </trace>
+</log>
+<log realm="server-1990/127.0.0.1:53438" at="2018-06-28T05:44:32.812279" lifespan="15468ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.817693">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.819074">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/30_txnmgr.xml
+  </trace>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53438" at="2018-06-28T05:44:32.826556">
+  <session-end/>
+</log>
+<log realm="server-1990/127.0.0.1:53356" at="2018-06-28T05:44:32.831376" lifespan="63252ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53356" at="2018-06-28T05:44:32.832406">
+  <session-end/>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2018-06-28T05:44:32.834371">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2018-06-28T05:44:32.838358">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="server-1990/127.0.0.1:53420" at="2018-06-28T05:44:32.842332" lifespan="27518ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53420" at="2018-06-28T05:44:32.845857">
+  <session-end/>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.850880">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/30_txnmgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.855564">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_zb.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.865466">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_zb.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.869120">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_stanchat.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.871090">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_stanchat.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.878057">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_stanbic.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.879354">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_stanbic.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.886189">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_nmb.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.890095">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_nmb.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.891033">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_fbc.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.897786">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_fbc.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.904663">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_cbz.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.906004">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_cbz.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.907441">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_barclays.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.918082">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_barclays.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.919469">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux2_jpos.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.933688">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux2_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.947051">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux1_jpos.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.955762">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux1_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.959987">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_zb.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.962749">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_zb.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.986818">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_stanchat.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.988715">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_stanchat.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.994109">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_stanbic.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.997112">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_stanbic.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:32.999057">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_nmb.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:33.012239">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_nmb.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:33.016402">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_fbc.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:33.020685">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_fbc.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:33.028213">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_cbz.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:33.033697">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_cbz.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:33.036437">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_barclays.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:33.056310">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_barclays.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:33.057934">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel2_jpos.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:33.062051">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel2_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:33.067729">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel1_jpos.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:33.076944">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel1_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:44:33.078805">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2018-06-28T05:48:14.867232">
+  <info>
+    Q2 started, deployDir=/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.188781" lifespan="2250ms">
+  <version>
+    jPOS 2.1.1 master/2a2874f (2017-11-13 11:09:54 ART)
+TelMarketServer 2.1.1 unknown/unknown (2018-03-05 05:58:33 CAT)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.278900" lifespan="45ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel1_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.309847" lifespan="28ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel2_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.363838" lifespan="46ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_barclays.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.426392" lifespan="48ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_cbz.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.487250" lifespan="42ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_fbc.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.505394" lifespan="13ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_nmb.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.520439" lifespan="13ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_stanbic.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.545827" lifespan="21ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_stanchat.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.596572" lifespan="46ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_zb.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.734915" lifespan="130ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux1_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.764359" lifespan="24ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux2_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.774870" lifespan="7ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_barclays.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.787743" lifespan="11ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_cbz.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.797206" lifespan="7ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_fbc.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.816737" lifespan="16ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_nmb.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.829931" lifespan="10ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_stanbic.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.845973" lifespan="9ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_stanchat.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:17.858592" lifespan="10ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/20_mux_zb.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.participant.SelectDestination" at="2018-06-28T05:48:18.178956">
+  <config>
+    13:4027230000000000000..4027239999999999999 [NMB]
+    13:4068960000000000000..4068969999999999999 [STANCHAT]
+    13:4069090000000000000..4069099999999999999 [STANBIC]
+    13:4069130000000000000..4069139999999999999 [STANBIC]
+    13:4069300000000000000..4069309999999999999 [STANBIC]
+    13:4211580000000000000..4211589999999999999 [NMB]
+    13:4211590000000000000..4211599999999999999 [NMB]
+    13:4238030000000000000..4238039999999999999 [NMB]
+    13:4238150000000000000..4238159999999999999 [NMB]
+    13:4243470000000000000..4243479999999999999 [STANBIC]
+    13:4243480000000000000..4243489999999999999 [STANBIC]
+    13:4290670000000000000..4290679999999999999 [CBZ]
+    13:4290680000000000000..4290689999999999999 [CBZ]
+    13:4290810000000000000..4290819999999999999 [CBZ]
+    13:4293260000000000000..4293269999999999999 [NMB]
+    13:4295020000000000000..4295029999999999999 [NMB]
+    13:4295920000000000000..4295929999999999999 [CBZ]
+    13:4295930000000000000..4295939999999999999 [CBZ]
+    13:4330030000000000000..4330039999999999999 [ZB]
+    13:4330040000000000000..4330049999999999999 [ZB]
+    13:4389140000000000000..4389149999999999999 [BARCLAYS]
+    13:4402250000000000000..4402259999999999999 [STANCHAT]
+    13:4402920000000000000..4402929999999999999 [STANCHAT]
+    13:4405710000000000000..4405719999999999999 [BARCLAYS]
+    13:4459720000000000000..4459729999999999999 [ZB]
+    13:4564840000000000000..4564849999999999999 [BARCLAYS]
+    13:4567910000000000000..4567919999999999999 [STANCHAT]
+    13:4658800000000000000..4658809999999999999 [ZB]
+    13:4864240000000000000..4864249999999999999 [ZB]
+    13:4874570000000000000..4874579999999999999 [CBZ]
+    13:4874580000000000000..4874589999999999999 [CBZ]
+    13:4874970000000000000..4874979999999999999 [CBZ]
+    13:5333030000000000000..5333039999999999999 [FBC]
+    13:5370270000000000000..5370279999999999999 [FBC]
+    13:5402140000000000000..5402149999999999999 [BARCLAYS]
+    13:5409830000000000000..5409839999999999999 [BARCLAYS]
+    13:5432530000000000000..5432539999999999999 [BARCLAYS]
+    13:5434440000000000000..5434449999999999999 [STANCHAT]
+    13:5473950000000000000..5473959999999999999 [STANCHAT]
+    13:5488730000000000000..5488739999999999999 [STANCHAT]
+    17:5000000000000000000..5099999999999999999 [MASTERCARD]
+    17:5100000000000000000..5199999999999999999 [MASTERCARD]
+    17:5200000000000000000..5299999999999999999 [MASTERCARD]
+    17:5300000000000000000..5399999999999999999 [MASTERCARD]
+    17:5400000000000000000..5499999999999999999 [MASTERCARD]
+    17:5500000000000000000..5599999999999999999 [MASTERCARD]
+    18:4000000000000000000..4999999999999999999 [VISA]
+  </config>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:18.431563" lifespan="561ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/30_txnmgr.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:18.460163" lifespan="26ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:48:18.478770" lifespan="16ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2018-06-28T05:48:18.914715" lifespan="6ms">
+  <info>
+    start Thread[Thread-22,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2018-06-28T05:48:18.913818" lifespan="14ms">
+  <info>
+    start Thread[Thread-21,5,main]
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-06-28T05:48:18.956197">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="server-1990.server" at="2018-06-28T05:48:18.959946">
+  <iso-server>
+    listening on port 1990
+  </iso-server>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2018-06-28T05:48:18.977480">
+  <info>
+               OS: Linux (4.16.0-parrot12-amd64)
+             Java: 10.0.1 (Oracle Corporation) AES-secure
+     process name: 7707@parrot
+             host: parrot/127.0.1.1
+              cwd: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer
+       free space: 37.9 GiB
+     usable space: 29.1 GiB
+          version: 2.1.1 (2a2874f)
+         instance: 8e24b16c-0891-4cbc-a63e-607006f2067b
+           uptime: 00:00:05.537 (1.280000)
+       processors: 2
+           drift : 0
+    memory(t/u/f): 109/10/98
+         encoding: UTF-8
+         timezone: Africa/Harare (Central Africa Time) +02:00
+    watch service: sun.nio.fs.LinuxWatchService
+            clock: 1530157699 2018-06-28T03:48:18.995995Z
+     thread count: 35
+     peak threads: 35
+     user threads: 30
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[RMI TCP Accept-0,5,system]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Q2-8e24b16c-0891-4cbc-a63e-607006f2067b,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[FileSystemWatchService,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-visa-send,5,main]
+            Thread[channel-receiver-visa-receive,5,main]
+            Thread[channel-sender-mastercard-send,5,main]
+            Thread[channel-receiver-mastercard-receive,5,main]
+            Thread[channel-sender-barclays-send,5,main]
+            Thread[channel-receiver-barclays-receive,5,main]
+            Thread[channel-sender-cbz-send,5,main]
+            Thread[channel-receiver-cbz-receive,5,main]
+            Thread[channel-sender-fbc-send,5,main]
+            Thread[channel-receiver-fbc-receive,5,main]
+            Thread[channel-sender-nmb-send,5,main]
+            Thread[channel-receiver-nmb-receive,5,main]
+            Thread[channel-sender-stanbic-send,5,main]
+            Thread[channel-receiver-stanbic-receive,5,main]
+            Thread[channel-sender-stanchat-send,5,main]
+            Thread[channel-receiver-stanchat-receive,5,main]
+            Thread[channel-sender-zb-send,5,main]
+            Thread[channel-receiver-zb-receive,5,main]
+            Thread[Timer-1,5,main]
+            Thread[txnmgr-0:idle,5,main]
+            Thread[txnmgr-1:idle,5,main]
+            Thread[pool-4-thread-1,5,main]
+            Thread[Thread-24,5,main]
+            Thread[SystemMonitor,5,main]
+            Thread[server-1990-ThreadPool.PooledThread-0,5,server-1990-ThreadPool-0]
+            Thread[Common-Cleaner,8,InnocuousThreadGroup]
+    name-registrar:
+      mux.STANCHAT: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      Q2: org.jpos.q2.Q2
+      tspace:org.jpos.transaction.TransactionManager@18bb9dd0: org.jpos.space.TSpace
+        <key count='1'>$TAIL</key>
+        <key count='1'>$HEAD</key>
+         key-count: 2
+            gcinfo: 0,0
+      mux.MASTERCARD: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      channel.mastercard-channel: org.jpos.iso.channel.ASCIIChannel
+      stanchat-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      channel.nmb-channel: org.jpos.iso.channel.XMLChannel
+      channel.stanbic-channel: org.jpos.iso.channel.XMLChannel
+      visa-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=1, last=0
+      zb-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      server.server-1990: org.jpos.iso.ISOServer
+        connected=0, rx=0, tx=0, last=0
+      fbc-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      mux.VISA: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      channel.barclays-channel: org.jpos.iso.channel.ASCIIChannel
+      mastercard-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=1, last=0
+      mux.NMB: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      mux.STANBIC: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      tspace:default: org.jpos.space.TSpace
+        <key count='1'>$TAILLOCK.414948816</key>
+        <key count='1'>mastercard-channel.ready</key>
+        <key count='1'>visa-channel.ready</key>
+        <key count='1'>barclays-channel.ready</key>
+         key-count: 4
+            gcinfo: 0,0
+      server-1990: org.jpos.q2.iso.QServer
+      barclays-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=1, last=0
+      mux.CBZ: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      nmb-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      channel.visa-channel: org.jpos.iso.channel.ASCIIChannel
+      stanbic-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      mux.ZB: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      txnmgr: org.jpos.transaction.TransactionManager
+        in-transit=0/0, head=1, tail=1, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=0, avg=0.00
+      channel.fbc-channel: org.jpos.iso.channel.XMLChannel
+      channel.stanchat-channel: org.jpos.iso.channel.XMLChannel
+      logger.Q2: org.jpos.util.Logger
+      mux.FBC: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+      mux.BARCLAYS: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      cbz-channel: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=0, last=0
+      channel.zb-channel: org.jpos.iso.channel.XMLChannel
+      channel.cbz-channel: org.jpos.iso.channel.XMLChannel
+  </info>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53792" at="2018-06-28T05:48:19.910694">
+  <session-start/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53794" at="2018-06-28T05:48:19.919259">
+  <session-start/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53796" at="2018-06-28T05:48:19.933086">
+  <session-start/>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:48:48.708312">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53900" at="2018-06-28T05:49:21.853788">
+  <session-start/>
+</log>
+<log realm="server-1990/127.0.0.1:53900" at="2018-06-28T05:49:21.873887" lifespan="18ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0100"/>
+      <field id="2" value="5402140000000007"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628054921"/>
+      <field id="11" value="562725"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="server-1990/127.0.0.1:53900" at="2018-06-28T05:49:22.179216" lifespan="1ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0110"/>
+      <field id="2" value="5402140000000007"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628054921"/>
+      <field id="11" value="562725"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="39" value="00"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="server-1990/127.0.0.1:53900" at="2018-06-28T05:49:22.216527" lifespan="257ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0500"/>
+      <field id="2" value="5402140000000007"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628054922"/>
+      <field id="11" value="872980"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2018-06-28T05:49:22.208307" lifespan="249ms">
+  <commit>
+    txnmgr-0:idle:1
+    <context>
+      TIMESTAMP: Thu Jun 28 05:49:21 CAT 2018
+      SOURCE: org.jpos.iso.channel.ASCIIChannel@70c9a2f1
+      REQUEST: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.ISO87APackager -->
+         <field id="0" value="0100"/>
+         <field id="2" value="5402140000000007"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628054921"/>
+         <field id="11" value="562725"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+      DESTINATION: BARCLAYS
+      RESULT: 
+       <result/>
+      
+      :paused_transaction: 
+       id: 1
+      
+      RESPONSE: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.ISO87APackager -->
+         <field id="0" value="0110"/>
+         <field id="2" value="5402140000000007"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628054921"/>
+         <field id="11" value="562725"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="39" value="00"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+    </context>
+            prepare: o.j.t.p.SelectDestination PREPARED READONLY NO_JOIN
+            prepare: o.j.t.p.QueryHost PREPARED PAUSE READONLY NO_JOIN
+            prepare: o.j.t.p.SendResponse PREPARED READONLY
+             commit: o.j.t.p.SendResponse
+     in-transit=0, head=2, tail=2, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=0, avg=0.00, elapsed=247ms
+    <profiler>
+      prepare: o.j.t.p.SelectDestination [38.5/38.5]
+      prepare: o.j.t.p.QueryHost [22.3/60.9]
+      resume [140.3/201.2]
+      prepare: o.j.t.p.SendResponse [3.4/204.7]
+       commit: o.j.t.p.SendResponse [41.7/246.4]
+      end [17.1/263.5]
+    </profiler>
+  </commit>
+</log>
+<log realm="server-1990/127.0.0.1:53900" at="2018-06-28T05:49:22.271789" lifespan="7ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0510"/>
+      <field id="2" value="5402140000000007"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628054922"/>
+      <field id="11" value="872980"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="39" value="00"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2018-06-28T05:49:22.302881" lifespan="71ms">
+  <commit>
+    txnmgr-0:idle:2
+    <context>
+      TIMESTAMP: Thu Jun 28 05:49:22 CAT 2018
+      SOURCE: org.jpos.iso.channel.ASCIIChannel@70c9a2f1
+      REQUEST: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.ISO87APackager -->
+         <field id="0" value="0500"/>
+         <field id="2" value="5402140000000007"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628054922"/>
+         <field id="11" value="872980"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+      DESTINATION: BARCLAYS
+      RESULT: 
+       <result/>
+      
+      :paused_transaction: 
+       id: 2
+      
+      RESPONSE: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.ISO87APackager -->
+         <field id="0" value="0510"/>
+         <field id="2" value="5402140000000007"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628054922"/>
+         <field id="11" value="872980"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="39" value="00"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+    </context>
+            prepare: o.j.t.p.SelectDestination PREPARED READONLY NO_JOIN
+            prepare: o.j.t.p.QueryHost PREPARED PAUSE READONLY NO_JOIN
+            prepare: o.j.t.p.SendResponse PREPARED READONLY
+             commit: o.j.t.p.SendResponse
+     in-transit=0, head=3, tail=3, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=0, avg=0.00, elapsed=60ms
+    <profiler>
+      prepare: o.j.t.p.SelectDestination [4.3/4.3]
+      prepare: o.j.t.p.QueryHost [0.7/5.1]
+      resume [26.4/31.6]
+      prepare: o.j.t.p.SendResponse [0.6/32.2]
+       commit: o.j.t.p.SendResponse [24.6/56.8]
+      end [48.8/105.7]
+    </profiler>
+  </commit>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:49:52.293253">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:50:32.336583">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:51:12.387660">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:51:14.211457" lifespan="1ms">
+  <info>
+    created deploy/.goutputstream-EP8ELZ
+    modified deploy/.goutputstream-EP8ELZ
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:51:14.296603">
+  <info>
+    modified deploy/.goutputstream-EP8ELZ
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:51:14.340137">
+  <info>
+    removed deploy/.goutputstream-EP8ELZ
+    created deploy/10_channel_cbz.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:51:14.342484">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_cbz.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:51:14.352557">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_cbz.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:51:16.870431" lifespan="12ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_cbz.xml
+  </info>
+</log>
+<log realm="server-1990/127.0.0.1:53792" at="2018-06-28T05:51:20.021550" lifespan="180109ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990/127.0.0.1:53794" at="2018-06-28T05:51:20.026478" lifespan="180105ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53794" at="2018-06-28T05:51:20.027943">
+  <session-end/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53792" at="2018-06-28T05:51:20.023156">
+  <session-end/>
+</log>
+<log realm="server-1990/127.0.0.1:53796" at="2018-06-28T05:51:20.054115" lifespan="180102ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53796" at="2018-06-28T05:51:20.055478">
+  <session-end/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54096" at="2018-06-28T05:51:25.021963">
+  <session-start/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54098" at="2018-06-28T05:51:25.031177">
+  <session-start/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54100" at="2018-06-28T05:51:25.057519">
+  <session-start/>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:51:40.954639">
+  <info>
+    created deploy/.goutputstream-CJZJLZ
+    modified deploy/.goutputstream-CJZJLZ
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:51:41.010876">
+  <info>
+    modified deploy/.goutputstream-CJZJLZ
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:51:41.055720">
+  <info>
+    removed deploy/.goutputstream-CJZJLZ
+    created deploy/10_channel_fbc.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:51:41.057717">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_fbc.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:51:41.061396">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_fbc.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:51:43.588882" lifespan="24ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_fbc.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:51:52.438414">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:01.820101">
+  <info>
+    created deploy/.goutputstream-K76FLZ
+    modified deploy/.goutputstream-K76FLZ
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:01.884532">
+  <info>
+    modified deploy/.goutputstream-K76FLZ
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:01.925247">
+  <info>
+    removed deploy/.goutputstream-K76FLZ
+    created deploy/10_channel_nmb.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:01.927189">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_nmb.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:01.929134">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_nmb.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:04.455518" lifespan="21ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_nmb.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:21.106478">
+  <info>
+    created deploy/.goutputstream-5CUCLZ
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:21.112030">
+  <info>
+    modified deploy/.goutputstream-5CUCLZ
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:21.124528">
+  <info>
+    modified deploy/.goutputstream-5CUCLZ
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:21.174804">
+  <info>
+    modified deploy/.goutputstream-5CUCLZ
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:21.207579">
+  <info>
+    removed deploy/.goutputstream-5CUCLZ
+    created deploy/10_channel_stanbic.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:21.209417">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_stanbic.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:21.211505">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_stanbic.xml
+  </info>
+</log>
+<log realm="server-1990/127.0.0.1:53900" at="2018-06-28T05:52:22.355418" lifespan="180125ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:53900" at="2018-06-28T05:52:22.356653">
+  <session-end/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54196" at="2018-06-28T05:52:22.374784">
+  <session-start/>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:23.742519" lifespan="27ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_stanbic.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:52:32.484507">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:56.995390">
+  <info>
+    created deploy/.goutputstream-38UKLZ
+    modified deploy/.goutputstream-38UKLZ
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:57.074698">
+  <info>
+    modified deploy/.goutputstream-38UKLZ
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:57.112989">
+  <info>
+    removed deploy/.goutputstream-38UKLZ
+    created deploy/10_channel_stanchat.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:57.114728">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_stanchat.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:57.118847">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_stanchat.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:52:59.633940" lifespan="8ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_stanchat.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:53:12.526759">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:53:18.757041">
+  <warn>
+    channel-receiver-mastercard-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:53:18.767193">
+  <warn>
+    channel-receiver-visa-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:53:22.491176">
+  <info>
+    created deploy/.goutputstream-8V58KZ
+    modified deploy/.goutputstream-8V58KZ
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:53:22.494613">
+  <info>
+    modified deploy/.goutputstream-8V58KZ
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:53:22.593945">
+  <info>
+    removed deploy/.goutputstream-8V58KZ
+    created deploy/10_channel_zb.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:53:22.595614">
+  <trace>
+    undeploying:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_zb.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:53:22.597351">
+  <info>
+    undeployed:/home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_zb.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2018-06-28T05:53:25.114138" lifespan="13ms">
+  <info>
+    deploy: /home/terrence/TelMarket/TelMarketServer/build/install/TelMarketServer/deploy/10_channel_zb.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:53:52.570592">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="server-1990/127.0.0.1:54096" at="2018-06-28T05:54:25.126697" lifespan="180103ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990/127.0.0.1:54098" at="2018-06-28T05:54:25.143632" lifespan="180111ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54098" at="2018-06-28T05:54:25.144651">
+  <session-end/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54096" at="2018-06-28T05:54:25.128046">
+  <session-end/>
+</log>
+<log realm="server-1990/127.0.0.1:54100" at="2018-06-28T05:54:25.163602" lifespan="180105ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54100" at="2018-06-28T05:54:25.164732">
+  <session-end/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54406" at="2018-06-28T05:54:30.137366">
+  <session-start/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54408" at="2018-06-28T05:54:30.142285">
+  <session-start/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54410" at="2018-06-28T05:54:30.169294">
+  <session-start/>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:54:32.612606">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:54:53.815228">
+  <warn>
+    channel-receiver-stanbic-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:55:12.663754">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="server-1990/127.0.0.1:54196" at="2018-06-28T05:55:22.480799" lifespan="180100ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54196" at="2018-06-28T05:55:22.481894">
+  <session-end/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54500" at="2018-06-28T05:55:27.492960">
+  <session-start/>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:55:33.863603">
+  <warn>
+    channel-receiver-stanbic-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:55:52.709894">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54564" at="2018-06-28T05:56:10.113042">
+  <session-start/>
+</log>
+<log realm="server-1990/127.0.0.1:54564" at="2018-06-28T05:56:10.139136" lifespan="25ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0100"/>
+      <field id="2" value="4069130000000005"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628055610"/>
+      <field id="11" value="734082"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="server-1990/127.0.0.1:54564" at="2018-06-28T05:56:10.380863" lifespan="1ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0110"/>
+      <field id="2" value="4069130000000005"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628055610"/>
+      <field id="11" value="734082"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="39" value="00"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="server-1990/127.0.0.1:54564" at="2018-06-28T05:56:10.395153" lifespan="208ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0500"/>
+      <field id="2" value="4069130000000005"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628055610"/>
+      <field id="11" value="307746"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2018-06-28T05:56:10.448124" lifespan="303ms">
+  <commit>
+    txnmgr-0:idle:3
+    <context>
+      TIMESTAMP: Thu Jun 28 05:56:10 CAT 2018
+      SOURCE: org.jpos.iso.channel.ASCIIChannel@2ea5f419
+      REQUEST: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.ISO87APackager -->
+         <field id="0" value="0100"/>
+         <field id="2" value="4069130000000005"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628055610"/>
+         <field id="11" value="734082"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+      DESTINATION: STANBIC
+      RESULT: 
+       <result/>
+      
+      :paused_transaction: 
+       id: 3
+      
+      RESPONSE: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.ISO87APackager -->
+         <field id="0" value="0110"/>
+         <field id="2" value="4069130000000005"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628055610"/>
+         <field id="11" value="734082"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="39" value="00"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+    </context>
+            prepare: o.j.t.p.SelectDestination PREPARED READONLY NO_JOIN
+            prepare: o.j.t.p.QueryHost PREPARED PAUSE READONLY NO_JOIN
+            prepare: o.j.t.p.SendResponse PREPARED READONLY
+             commit: o.j.t.p.SendResponse
+     in-transit=0, head=4, tail=4, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=2, avg=0.00, elapsed=282ms
+    <profiler>
+      prepare: o.j.t.p.SelectDestination [1.0/1.0]
+      prepare: o.j.t.p.QueryHost [5.5/6.5]
+      resume [226.6/233.2]
+      prepare: o.j.t.p.SendResponse [0.7/233.9]
+       commit: o.j.t.p.SendResponse [47.6/281.6]
+      end [23.3/304.9]
+    </profiler>
+  </commit>
+</log>
+<log realm="server-1990/127.0.0.1:54564" at="2018-06-28T05:56:10.558401" lifespan="4ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.ISO87APackager -->
+      <field id="0" value="0510"/>
+      <field id="2" value="4069130000000005"/>
+      <field id="3" value="003000"/>
+      <field id="4" value="000000000465"/>
+      <field id="7" value="0628055610"/>
+      <field id="11" value="307746"/>
+      <field id="14" value="1234"/>
+      <field id="18" value="4814"/>
+      <field id="22" value="812"/>
+      <field id="32" value="123456"/>
+      <field id="39" value="00"/>
+      <field id="42" value="2345hfts=5682jf"/>
+      <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+      <field id="49" value="840"/>
+      <field id="61" value="12310006600716"/>
+      <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2018-06-28T05:56:10.574616" lifespan="128ms">
+  <commit>
+    txnmgr-1:idle:4
+    <context>
+      TIMESTAMP: Thu Jun 28 05:56:10 CAT 2018
+      SOURCE: org.jpos.iso.channel.ASCIIChannel@2ea5f419
+      REQUEST: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.ISO87APackager -->
+         <field id="0" value="0500"/>
+         <field id="2" value="4069130000000005"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628055610"/>
+         <field id="11" value="307746"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+      DESTINATION: STANBIC
+      RESULT: 
+       <result/>
+      
+      :paused_transaction: 
+       id: 4
+      
+      RESPONSE: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.ISO87APackager -->
+         <field id="0" value="0510"/>
+         <field id="2" value="4069130000000005"/>
+         <field id="3" value="003000"/>
+         <field id="4" value="000000000465"/>
+         <field id="7" value="0628055610"/>
+         <field id="11" value="307746"/>
+         <field id="14" value="1234"/>
+         <field id="18" value="4814"/>
+         <field id="22" value="812"/>
+         <field id="32" value="123456"/>
+         <field id="39" value="00"/>
+         <field id="42" value="2345hfts=5682jf"/>
+         <field id="43" value="TelMarket_Online_Store Harare_Harare ZWE"/>
+         <field id="49" value="840"/>
+         <field id="61" value="12310006600716"/>
+         <field id="120" value="Takunda TerrenceGatu TownshipCentenaryZimbabwe123980082"/>
+       </isomsg>
+      
+    </context>
+            prepare: o.j.t.p.SelectDestination PREPARED READONLY NO_JOIN
+            prepare: o.j.t.p.QueryHost PREPARED PAUSE READONLY NO_JOIN
+            prepare: o.j.t.p.SendResponse PREPARED READONLY
+             commit: o.j.t.p.SendResponse
+     in-transit=0, head=5, tail=5, paused=0, outstanding=0, active-sessions=2/128, tps=0, peak=2, avg=0.00, elapsed=124ms
+    <profiler>
+      prepare: o.j.t.p.SelectDestination [0.8/0.8]
+      prepare: o.j.t.p.QueryHost [8.1/9.0]
+      resume [97.3/106.4]
+      prepare: o.j.t.p.SendResponse [0.5/106.9]
+       commit: o.j.t.p.SendResponse [9.9/116.9]
+      end [25.8/142.7]
+    </profiler>
+  </commit>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:56:32.758919">
+  <warn>
+    channel-receiver-barclays-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:56:34.408132">
+  <warn>
+    channel-receiver-stanbic-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:56:46.574285">
+  <warn>
+    channel-receiver-visa-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2018-06-28T05:56:51.345834">
+  <warn>
+    channel-receiver-mastercard-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="server-1990/127.0.0.1:54406" at="2018-06-28T05:57:30.240342" lifespan="180102ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54406" at="2018-06-28T05:57:30.241517">
+  <session-end/>
+</log>
+<log realm="server-1990/127.0.0.1:54408" at="2018-06-28T05:57:30.252696" lifespan="180109ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54408" at="2018-06-28T05:57:30.253747">
+  <session-end/>
+</log>
+<log realm="server-1990/127.0.0.1:54410" at="2018-06-28T05:57:30.275744" lifespan="180105ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54410" at="2018-06-28T05:57:30.276827">
+  <session-end/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54724" at="2018-06-28T05:57:35.247274">
+  <session-start/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54726" at="2018-06-28T05:57:35.257526">
+  <session-start/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54728" at="2018-06-28T05:57:35.280830">
+  <session-start/>
+</log>
+<log realm="server-1990/127.0.0.1:54500" at="2018-06-28T05:58:27.601879" lifespan="180108ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54500" at="2018-06-28T05:58:27.611773">
+  <session-end/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54846" at="2018-06-28T05:58:32.604532">
+  <session-start/>
+</log>
+<log realm="server-1990/127.0.0.1:54564" at="2018-06-28T05:59:10.532893" lifespan="180105ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54564" at="2018-06-28T05:59:10.533792">
+  <session-end/>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54930" at="2018-06-28T05:59:10.541509">
+  <session-start/>
+</log>
+<log realm="server-1990/127.0.0.1:54724" at="2018-06-28T06:00:35.359451" lifespan="180110ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54724" at="2018-06-28T06:00:35.360431">
+  <session-end/>
+</log>
+<log realm="server-1990/127.0.0.1:54726" at="2018-06-28T06:00:35.369707" lifespan="180111ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54726" at="2018-06-28T06:00:35.370571">
+  <session-end/>
+</log>
+<log realm="server-1990/127.0.0.1:54728" at="2018-06-28T06:00:35.383198" lifespan="180101ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-1990.server.session/127.0.0.1:54728" at="2018-06-28T06:00:35.384092">
+  <session-end/>
+</log>
