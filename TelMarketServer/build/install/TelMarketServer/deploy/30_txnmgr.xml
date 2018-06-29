@@ -31,7 +31,7 @@
                  4
             </endpoint>
             <endpoint   destination = "MASTERCARD">
-                 50 51 52 53 54 55
+                 51 52 53 54 55
             </endpoint>
             
 	</participant>

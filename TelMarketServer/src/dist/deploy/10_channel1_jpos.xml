@@ -14,3 +14,4 @@
 <out>visa-receive</out>
 <reconnect-delay>10000</reconnect-delay>
 </channel-adaptor>
+

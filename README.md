@@ -59,8 +59,8 @@ OR
 ##Endpoint Simmulation
 /*
 * Inside netbeans IDE click open existing project
-* Open java project 'Bank1'
-* Open java project 'Bank2'
+* Open java project 'MASTERCARD_PN'
+* Open java project 'VISA_PN'
 * Run both projects
 */
 
