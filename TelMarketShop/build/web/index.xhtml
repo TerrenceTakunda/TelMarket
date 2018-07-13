@@ -1,391 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html">
-    <h:head>
-        <title>TelOne Zimbabwe TelMarket</title>
-        <!-- Meta -->
-	<meta charset="utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<meta name="description" content=""/>
-	<meta name="author" content="Terrence Takunda Munyunguma"/>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./Template.xhtml">
 
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="favicon.ico"/>
-
-	<!-- Web Fonts -->
-	<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,800&amp;subset=cyrillic,latin'/>
-
-	<!-- CSS Global Compulsory -->
-	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="assets/css/shop.style.css"/>
-
-	<!-- CSS Header and Footer -->
-	<link rel="stylesheet" href="assets/css/headers/header-v5.css"/>
-	<link rel="stylesheet" href="assets/css/footers/footer-v4.css"/>
-
-	<!-- CSS Implementing Plugins -->
-	<link rel="stylesheet" href="assets/plugins/animate.css"/>
-	<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css"/>
-	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="assets/plugins/scrollbar/css/jquery.mCustomScrollbar.css"/>
-	<link rel="stylesheet" href="assets/plugins/owl-carousel/owl-carousel/owl.carousel.css"/>
-	<link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings.css"/>
-
-	<!-- CSS Theme -->
-	<link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color"/>
-
-	<!-- CSS Customization -->
-	<link rel="stylesheet" href="assets/css/custom.css"/>
-    </h:head>
-    
-    <h:body class="header-fixed">
-        <div class="wrapper">
-            <!--=== Header v5 ===-->
-            <div class="header-v5 header-static">
-		<!-- Topbar v3 -->
-		<div class="topbar-v3">
-                    <div class="search-open">
-			<div class="container">
-                            <input type="text" class="form-control" placeholder="Search"/>
-				<div class="search-close"><i class="icon-close"></i></div>
-			</div>
-                    </div>
-
-                    <div class="container">
-			<div class="row">
-                            <div class="col-sm-6">
-				<!-- Topbar Navigation -->
-				<ul class="left-topbar">
-                                    <li>
-					<a>Currency (USD)</a>
-                                            <ul class="currency">
-						<li class="active">
-						<a href="#">USD <i class="fa fa-check"></i></a>
-						</li>
-						<li><a href="#">Euro</a></li>
-						<li><a href="#">Pound</a></li>
-                                            </ul>
-                                    </li>
-                                    <li>
-					<a>Language (EN)</a>
-                                            <ul class="language">
-						<li class="active">
-                                                    <a href="#">English (EN)<i class="fa fa-check"></i></a>
-						</li>
-						<li><a href="#">Spanish (SPN)</a></li>
-						<li><a href="#">Russian (RUS)</a></li>
-						<li><a href="#">German (GRM)</a></li>
-                                            </ul>
-                                    </li>
-				</ul><!--/end left-topbar-->
-                            </div>
-                            <div class="col-sm-6">
-				<ul class="list-inline right-topbar pull-right">
-                                    <li><a href="#">Account</a></li>
-                                    <li><a href="shop-ui-add-to-cart.html">Wishlist (0)</a></li>
-                                    <li><a href="shop-ui-login.html">Login</a> | <a href="shop-ui-register.html">Register</a></li>
-                                    <li><i class="search fa fa-search search-button"></i></li>
-				</ul>
-                            </div>
-			</div>
-                    </div><!--/container-->
-		</div>
-		<!-- End Topbar v3 -->
-
-                <!-- Navbar -->
-                <div class="navbar navbar-default mega-menu" role="navigation">
-                    <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="index.html">
-				<img id="logo-header" src="assets/img/logo.png" alt="Logo"/>
-                            </a>
-			</div>
-
-			<!-- Shopping Cart -->
-			<div class="shop-badge badge-icons pull-right">
-                            <a href="#"><i class="fa fa-shopping-cart"></i></a>
-				<span class="badge badge-sea rounded-x">3</span>
-				<div class="badge-open">
-                                    <ul class="list-unstyled mCustomScrollbar" data-mcs-theme="minimal-dark">
-					<li>
-                                            <img src="assets/img/thumb/05.jpg" alt=""/>
-                                            <button type="button" class="close">×</button>
-                                            <div class="overflow-h">
-						<span>Black Glasses</span>
-						<small>1 x $400.00</small>
-                                            </div>
-					</li>
-					<li>
-                                            <img src="assets/img/thumb/02.jpg" alt=""/>
-                                            <button type="button" class="close">×</button>
-                                            <div class="overflow-h">
-						<span>Black Glasses</span>
-						<small>1 x $400.00</small>
-                                            </div>
-					</li>
-					<li>
-                                            <img src="assets/img/thumb/03.jpg" alt=""/>
-						<button type="button" class="close">×</button>
-						<div class="overflow-h">
-                                                    <span>Black Glasses</span>
-                                                    <small>1 x $400.00</small>
-                                                </div>
-					</li>
-                                    </ul>
-                                    <div class="subtotal">
-					<div class="overflow-h margin-bottom-10">
-                                            <span>Subtotal</span>
-                                            <span class="pull-right subtotal-cost">$1200.00</span>
-					</div>
-					<div class="row">
-                                            <div class="col-xs-6">
-						<a href="shop-ui-inner.html" class="btn-u btn-brd btn-brd-hover btn-u-sea-shop btn-block">View Cart</a>
-                                            </div>
-                                            <div class="col-xs-6">
-						<a href="shop-ui-add-to-cart.html" class="btn-u btn-u-sea-shop btn-block">Checkout</a>
-                                            </div>
-					</div>
-                                    </div>
-				</div>
-                            </div>
-                            <!-- End Shopping Cart -->
-
-                            <!-- Collect the nav links, forms, and other content for toggling -->
-                            <div class="collapse navbar-collapse navbar-responsive-collapse">
-                            	<!-- Nav Menu -->
-				<ul class="nav navbar-nav">
-                                    
-                                    <!-- Store -->
-                                    <li class="dropdown mega-menu-fullwidth">
-					<a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
-					IN STORE
-					</a>
-					<ul class="dropdown-menu">
-                                            <li>
-						<div class="mega-menu-content">
-                                                    <div class="container">
-							<div class="row">
-                                                            <div class="col-md-2 col-sm-6">
-								<h3 class="mega-menu-heading">Clothe</h3>
-								<ul class="list-unstyled style-list">
-                                                                    <li><a href="#">New in</a></li>
-                                                                    <li><a href="#">Coats &amp; Jackets</a></li>
-                                                                    <li><a href="#">Jeans</a></li>
-                                                                    <li><a href="#">Dresses</a></li>
-                                                                    <li><a href="#">Shorts</a> <span class="label label-danger-shop">New</span></li>
-                                                                    <li><a href="#">Skirts</a></li>
-                                                                    <li><a href="#">T-Shirts</a></li>
-								</ul>
-								<h3 class="mega-menu-heading">Shoes</h3>
-                                                                <ul class="list-unstyled style-list">
-                                                                    <li><a href="#">Boots</a></li>
-                                                                    <li><a href="#">FLats</a></li>
-                                                                    <li><a href="#">Heels</a></li>
-                                                                    <li><a href="#">Sandals</a></li>
-                                                                    <li><a href="#">Sports</a></li>
-								</ul>
-                                                            </div>
-
-                                                            <div class="col-md-2 col-sm-6">
-														<h3 class="mega-menu-heading">Accessories</h3>
-														<ul class="list-unstyled style-list">
-															<li><a href="#">All accessories</a></li>
-															<li><a href="#">Bags &amp; Purses</a></li>
-															<li><a href="#">Scarvs &amp; Hats</a></li>
-															<li><a href="#">Jewellery</a></li>
-															<li><a href="#">Fragrance &amp; Beauty</a></li>
-														</ul>
-														<h3 class="mega-menu-heading">Lingerie</h3>
-														<ul class="list-unstyled style-list">
-															<li><a href="#">Linger</a> <span class="label label-danger-shop">New</span></li>
-															<li><a href="#">Slippers</a></li>
-														</ul>
-														<h3 class="mega-menu-heading">Nightwear</h3>
-														<ul class="list-unstyled style-list">
-															<li><a href="#">Nightwear</a></li>
-															<li><a href="#">Socks</a></li>
-															<li><a href="#">Tights</a></li>
-														</ul>
-													</div>
-
-													<div class="col-md-2 col-sm-6">
-														<h3 class="mega-menu-heading">Mixed</h3>
-														<ul class="list-unstyled style-list">
-															<li><a href="#">New in</a></li>
-															<li><a href="#">Coats &amp; Jackets</a> <span class="label label-danger-shop">New</span></li>
-															<li><a href="#">Jeans</a></li>
-															<li><a href="#">Dresses</a></li>
-															<li><a href="#">Shorts</a></li>
-															<li><a href="#">Skirts</a></li>
-															<li><a href="#">T-shirts</a></li>
-															<li><a href="#">Boots</a></li>
-															<li><a href="#">Flats</a></li>
-															<li><a href="#">Heels</a></li>
-															<li><a href="#">Sandals</a></li>
-															<li><a href="#">Sports</a></li>
-															<li><a href="#">Socks</a></li>
-															<li><a href="#">Tights</a></li>
-														</ul>
-													</div>
-
-													<div class="col-md-2 col-sm-6">
-														<h3 class="mega-menu-heading">Clothe</h3>
-														<ul class="list-unstyled style-list">
-															<li><a href="#">New in</a></li>
-															<li><a href="#">Coats &amp; Jackets</a></li>
-															<li><a href="#">Jeans</a></li>
-															<li><a href="#">Dresses</a></li>
-															<li><a href="#">Shorts</a> <span class="label label-danger-shop">New</span></li>
-															<li><a href="#">Skirts</a></li>
-															<li><a href="#">T-shirts</a></li>
-														</ul>
-														<h3 class="mega-menu-heading">Shoes</h3>
-														<ul class="list-unstyled style-list">
-															<li><a href="#">Boots</a></li>
-															<li><a href="#">Flats</a></li>
-															<li><a href="#">Heels</a></li>
-															<li><a href="#">Sandals</a></li>
-															<li><a href="#">Sports</a></li>
-														</ul>
-													</div>
-
-													<div class="col-md-2 col-sm-6">
-														<h3 class="mega-menu-heading">Accessories</h3>
-														<ul class="list-unstyled style-list">
-															<li><a href="#">All accessories</a></li>
-															<li><a href="#">Bags &amp; Purses</a></li>
-															<li><a href="#">Scarvs &amp; Hats</a></li>
-															<li><a href="#">Jewellery</a></li>
-															<li><a href="#">Fragrance &amp; Beauty</a></li>
-														</ul>
-														<h3 class="mega-menu-heading">Lingerie</h3>
-														<ul class="list-unstyled style-list">
-															<li><a href="#">Linger</a> <span class="label label-danger-shop">New</span></li>
-															<li><a href="#">Slippers</a></li>
-														</ul>
-														<h3 class="mega-menu-heading">Nightwear</h3>
-														<ul class="list-unstyled style-list">
-															<li><a href="#">Nightwear</a></li>
-															<li><a href="#">Socks</a></li>
-															<li><a href="#">Tights</a></li>
-														</ul>
-													</div>
-
-													<div class="col-md-2 col-sm-6">
-														<h3 class="mega-menu-heading">Mixed</h3>
-														<ul class="list-unstyled style-list">
-															<li><a href="#">New in</a></li>
-															<li><a href="#">Coats &amp; Jackets</a> <span class="label label-danger-shop">New</span></li>
-															<li><a href="#">Jeans</a></li>
-															<li><a href="#">Dresses</a></li>
-															<li><a href="#">Shorts</a></li>
-															<li><a href="#">Skirts</a></li>
-															<li><a href="#">T-shirts</a></li>
-															<li><a href="#">Boots</a></li>
-															<li><a href="#">Flats</a></li>
-															<li><a href="#">Heels</a></li>
-															<li><a href="#">Sandals</a></li>
-															<li><a href="#">Sports</a></li>
-															<li><a href="#">Socks</a></li>
-															<li><a href="#">Tights</a> <span class="label label-danger-shop">New</span></li>
-														</ul>
-													</div>
-												</div><!--/end row-->
-											</div><!--/end container-->
-										</div><!--/end mega menu content-->
-									</li>
-								</ul><!--/end dropdown-menu-->
-					</li>
-                                    <!-- End Store -->
-                                    
-                                    <!-- Promotion -->
-                                    <li class="dropdown">
-					<a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
-					Promotions
-					</a>
-					<ul class="dropdown-menu">
-                                            <li class="dropdown-submenu">
-                                                <a href="javascript:void(0);">Jeans</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="#">Skinny Jeans</a></li>
-                                                    <li><a href="#">Bootcut Jeans</a></li>
-                                                    <li><a href="#">Straight Cut Jeans</a></li>
-						</ul>
-                                            </li>
-                                            <li class="dropdown-submenu">
-                                                <a href="javascript:void(0);">Shoes</a>
-						<ul class="dropdown-menu">
-                                                    <li><a href="#">Sandals</a></li>
-                                                    <li><a href="#">Heels</a></li>
-						</ul>
-                                            </li>
-					</ul>
-                                    </li>
-                                    <!-- End Promotion -->
-
-                                    <!-- Gifts -->
-                                    <li class="dropdown mega-menu-fullwidth">
-					<a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
-					Gifts
-					</a>
-					<ul class="dropdown-menu">
-                                            <li>
-						<div class="mega-menu-content">
-                                                    <div class="container">
-							<div class="row">
-                                                            <div class="col-md-3 col-sm-12 col-xs-12 md-margin-bottom-30">
-								<h3 class="mega-menu-heading">Pellentes que nec diam lectus</h3>
-								<p>Proin pulvinar libero quis auctor pharet ra. Aenean fermentum met us orci, sedf eugiat augue pulvina r vitae. Nulla dolor nisl, molestie nec aliquam vitae, gravida sodals dolor...</p>
-								<button type="button" class="btn-u btn-u-dark">Read More</button>
-                                                            </div>
-                                                            <div class="col-md-3 col-sm-4 col-xs-4 md-margin-bottom-30">
-								<a href="#"><img class="product-offers img-responsive" src="assets/img/blog/01.jpg" alt=""/></a>
-                                                            </div>
-                                                            <div class="col-md-3 col-sm-4 col-xs-4 sm-margin-bottom-30">
-								<a href="#"><img class="product-offers img-responsive" src="assets/img/blog/02.jpg" alt=""/></a>
-                                                            </div>
-                                                            <div class="col-md-3 col-sm-4 col-xs-4">
-								<a href="#"><img class="product-offers img-responsive" src="assets/img/blog/03.jpg" alt=""/></a>
-                                                            </div>
-							</div><!--/end row-->
-                                                    </div><!--/end container-->
-						</div><!--/end mega menu content-->
-                                            </li>
-					</ul><!--/end dropdown-menu-->
-                                    </li>
-                                    <!-- End Gifts -->
-
-                                    <!-- Clothes -->
-							<li class="dropdown">
-								<a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" data-delay="1000">
-									Clothes
-								</a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Jeans</a></li>
-									<li><a href="#">T-shirts</a></li>
-									<li><a href="#">Shorts</a></li>
-								</ul>
-							</li>
-                                    <!-- End Clothes -->
-                                    
-				</ul>
-				<!-- End Nav Menu -->
-                            </div>
-			</div>
-                    </div>
-                    <!-- End Navbar -->
-		</div>
-            <!--=== End Header v5 ===-->
-
-            <!--=== Slider ===-->
+    <ui:define name="content">
+        <!--=== Slider ===-->
             <div class="tp-banner-container">
                 <div class="tp-banner">
                     <ul>
@@ -404,8 +23,8 @@
                                  data-endeasing="Power1.easeIn"
                                  data-endspeed="300">
                                 The New <br/>
-                                <strong>Collection</strong><br/>
-                                is here
+                                <strong>Promotions</strong><br/>
+                                are here
                             </div>
 
                             <!-- LAYER -->
@@ -420,7 +39,7 @@
                                  data-endeasing="Power1.easeIn"
                                  data-captionhidden="off"
                                  style="z-index: 6">
-                                <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Shop Now</a>
+                                <a href="allProducts.xhtml" class="btn-u btn-brd btn-brd-hover btn-u-light">Shop Now</a>
                             </div>
                         </li>
                         <!-- END SLIDE -->
@@ -439,7 +58,7 @@
                                  data-easing="Back.easeInOut"
                                  data-endeasing="Power1.easeIn"
                                  data-endspeed="300">
-                                Latest <strong>Fashion</strong> Trends
+                                Latest <strong>Technology</strong> Trends
                             </div>
 
                             <!-- LAYER -->
@@ -454,8 +73,8 @@
                                  data-endeasing="Power1.easeIn"
                                  data-captionhidden="off"
                                  style="z-index: 6">
-                                Cras non dui et quam auctor pretium.<br/>
-                                Aenean enim tortr, tempus et iteus m
+                                Fastest broadband speeds ever.<br/>
+                                Latest Telecommunication channels and Devices
                             </div>
 
                             <!-- LAYER -->
@@ -470,7 +89,7 @@
                                  data-endeasing="Power1.easeIn"
                                  data-captionhidden="off"
                                  style="z-index: 6">
-                                <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Shop Now</a>
+                                <a href="allProducts.xhtml" class="btn-u btn-brd btn-brd-hover btn-u-light">Shop Now</a>
                             </div>
                         </li>
                         <!-- END SLIDE -->
@@ -489,7 +108,7 @@
                                  data-easing="Back.easeInOut"
                                  data-endeasing="Power1.easeIn"
                                  data-endspeed="300">
-                                <strong>Luxury</strong> Watches
+                                <strong>Luxury</strong> Laptops
                             </div>
 
                             <!-- LAYER -->
@@ -520,7 +139,7 @@
                                  data-endeasing="Power1.easeIn"
                                  data-captionhidden="off"
                                  style="z-index: 6">
-                                <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Shop Now</a>
+                                <a href="allProducts.xhtml" class="btn-u btn-brd btn-brd-hover btn-u-light">Shop Now</a>
                             </div>
                         </li>
                         <!-- END SLIDE -->
@@ -539,7 +158,7 @@
                                  data-easing="Back.easeInOut"
                                  data-endeasing="Power1.easeIn"
                                  data-endspeed="300">
-                                Girl's Accesories
+                                Fastest Severs
                             </div>
 
                             <!-- LAYER -->
@@ -554,7 +173,7 @@
                                  data-endeasing="Power1.easeIn"
                                  data-captionhidden="off"
                                  style="z-index: 6">
-                                Super Promo
+                                Domain Name Registration
                             </div>
 
                             <!-- LAYER -->
@@ -569,8 +188,8 @@
                                  data-endeasing="Power1.easeIn"
                                  data-captionhidden="off"
                                  style="z-index: 6">
-                                <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">View More</a>
-                                <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Shop Now</a>
+                                <a href="allProducts.xhtml" class="btn-u btn-brd btn-brd-hover btn-u-light">View More</a>
+                                <a href="allProducts.xhtml" class="btn-u btn-brd btn-brd-hover btn-u-light">Shop Now</a>
                             </div>
                         </li>
                         <!-- END SLIDE -->
@@ -589,7 +208,7 @@
                                  data-easing="Back.easeInOut"
                                  data-endeasing="Power1.easeIn"
                                  data-endspeed="300">
-                                <strong>Jeans</strong> Collection
+                                <strong>Cloud</strong> Services
                             </div>
 
                             <!-- LAYER -->
@@ -604,8 +223,8 @@
                                  data-endeasing="Power1.easeIn"
                                  data-captionhidden="off"
                                  style="z-index: 6">
-                                Cras non dui et quam auctor pretium.<br/>
-                                Aenean enim tortr, tempus et iteus m
+                                IOT servers with 100% reliability<br/>
+                                Game changing Artificial Intelligence
                             </div>
 
                             <!-- LAYER -->
@@ -620,7 +239,7 @@
                                  data-endeasing="Power1.easeIn"
                                  data-captionhidden="off"
                                  style="z-index: 6">
-                                <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Shop Now</a>
+                                <a href="allProducts.xhtml" class="btn-u btn-brd btn-brd-hover btn-u-light">Shop Now</a>
                             </div>
                         </li>
                         <!-- END SLIDE -->
@@ -651,8 +270,8 @@
                             <a class="illustration-v1 illustration-img2" href="#">
                                 <span class="illustration-bg">
                                     <span class="illustration-ads ad-details-v2">
-                                        <span class="item-time">Spring 2014</span>
-                                        <span class="item-name">Lacoste</span>
+                                        <span class="item-time">Spring 2018</span>
+                                        <span class="item-name">TensorFlow Deals</span>
                                     </span>
                                 </span>
                             </a>
@@ -683,9 +302,9 @@
                             <div class="product-description product-description-brd">
                                 <div class="overflow-h margin-bottom-5">
                                     <div class="pull-left">
-                                        <h4 class="title-price"><a href="shop-ui-inner.html">Double-breasted</a></h4>
-                                        <span class="gender text-uppercase">Men</span>
-                                        <span class="gender">Suits - Blazers</span>
+                                        <h4 class="title-price"><a href="shop-ui-inner.html">Machine Learning</a></h4>
+                                        <span class="gender text-uppercase">AI</span>
+                                        <span class="gender">Big Data Analytics</span>
                                     </div>
                                     <div class="product-price">
                                         <span class="title-price">$95.00</span>
@@ -710,9 +329,9 @@
                             <div class="product-description product-description-brd">
                                 <div class="overflow-h margin-bottom-5">
                                     <div class="pull-left">
-                                        <h4 class="title-price"><a href="shop-ui-inner.html">Double-breasted</a></h4>
-                                        <span class="gender text-uppercase">Women</span>
-                                        <span class="gender">Suits - Blazers</span>
+                                        <h4 class="title-price"><a href="shop-ui-inner.html">Web Development</a></h4>
+                                        <span class="gender text-uppercase">Java</span>
+                                        <span class="gender">JAX-RS - SOA</span>
                                     </div>
                                     <div class="product-price">
                                         <span class="title-price">$60.00</span>
@@ -1322,219 +941,6 @@
                 </div><!--/end container-->
             </div>
             <!--=== End Shop Suvbscribe ===-->
+    </ui:define>
 
-            <!--=== Footer v4 ===-->
-            <div class="footer-v4">
-                <div class="footer">
-                    <div class="container">
-                        <div class="row">
-                            <!-- About -->
-                            <div class="col-md-4 md-margin-bottom-40">
-                                <a href="index.html"><img class="footer-logo" src="assets/img/logo-2.png" alt=""/></a>
-                                <p>About Unify dolor sit amet, consectetur adipiscing elit. Maecenas eget nisl id libero tincidunt sodales.</p>
-                                <br/>
-                                <ul class="list-unstyled address-list margin-bottom-20">
-                                    <li><i class="fa fa-angle-right"></i>California, US, Lorem Lis Street, Orange, 25</li>
-                                    <li><i class="fa fa-angle-right"></i>Phone: 800 123 3456</li>
-                                    <li><i class="fa fa-angle-right"></i>Fax: 800 123 3456</li>
-                                    <li><i class="fa fa-angle-right"></i>Email: info@anybiz.co</li>
-                                </ul>
-
-                                <ul class="list-inline shop-social">
-                                    <li><a href="#"><i class="fb rounded-md fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="tw rounded-md fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="gp rounded-md fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="yt rounded-md fa fa-youtube"></i></a></li>
-                                </ul>
-                            </div>
-                            <!-- End About -->
-
-                            <!-- Simple List -->
-                            <div class="col-md-2 col-sm-3">
-                                <div class="row">
-                                    <div class="col-sm-12 col-xs-6">
-                                        <h2 class="thumb-headline">Secciones</h2>
-                                        <ul class="list-unstyled simple-list margin-bottom-20">
-                                            <li><a href="#">Ultima Hora</a></li>
-                                            <li><a href="#">Exclusiva</a></li>
-                                            <li><a href="#">Documentos </a></li>
-                                            <li><a href="#">Francisco papa</a></li>
-                                            <li>...</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-sm-12 col-xs-6">
-                                        <h2 class="thumb-headline">Temas</h2>
-                                        <ul class="list-unstyled simple-list">
-                                            <li><a href="#">Ultima Hora</a></li>
-                                            <li><a href="#">Exclusiva</a></li>
-                                            <li><a href="#">Documentos </a></li>
-                                            <li><a href="#">Francisco papa</a></li>
-                                            <li>...</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-2 col-sm-3">
-                                <div class="row">
-                                    <div class="col-sm-12 col-xs-6">
-                                        <h2 class="thumb-headline">Utilidades</h2>
-                                        <ul class="list-unstyled simple-list margin-bottom-20">
-                                            <li><a href="#">Ultima Hora</a></li>
-                                            <li><a href="#">Exclusiva</a></li>
-                                            <li><a href="#">Documentos </a></li>
-                                            <li>...</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-sm-12 col-xs-6">
-                                        <h2 class="thumb-headline">Documentos</h2>
-                                        <ul class="list-unstyled simple-list">
-                                            <li><a href="#">Ultima Hora</a></li>
-                                            <li><a href="#">Exclusiva</a></li>
-                                            <li><a href="#">Documentos </a></li>
-                                            <li><a href="#">Francisco papa</a></li>
-                                            <li>...</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-2 col-sm-3">
-                                <div class="row">
-                                    <div class="col-sm-12 col-xs-6">
-                                        <h2 class="thumb-headline">Publicidad</h2>
-                                        <ul class="list-unstyled simple-list margin-bottom-20">
-                                            <li><a href="#">Ultima Hora</a></li>
-                                            <li><a href="#">Exclusiva</a></li>
-                                            <li><a href="#">Documentos </a></li>
-                                            <li><a href="#">Francisco papa</a></li>
-                                            <li>...</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-sm-12 col-xs-6">
-                                        <h2 class="thumb-headline">Contacto</h2>
-                                        <ul class="list-unstyled simple-list">
-                                            <li><a href="#">Ultima Hora</a></li>
-                                            <li><a href="#">Exclusiva</a></li>
-                                            <li><a href="#">Documentos </a></li>
-                                            <li><a href="#">Francisco papa</a></li>
-                                            <li>...</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-2 col-sm-3">
-                                <div class="row">
-                                    <div class="col-sm-12 col-xs-6">
-                                        <h2 class="thumb-headline">Utilidades</h2>
-                                        <ul class="list-unstyled simple-list margin-bottom-20">
-                                            <li><a href="#">Ultima Hora</a></li>
-                                            <li><a href="#">Exclusiva</a></li>
-                                            <li>...</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-sm-12 col-xs-6">
-                                        <h2 class="thumb-headline">Documentos</h2>
-                                        <ul class="list-unstyled simple-list">
-                                            <li><a href="#">Ultima Hora</a></li>
-                                            <li><a href="#">Exclusiva</a></li>
-                                            <li>...</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Simple List -->
-                        </div><!--/end row-->
-                    </div><!--/end continer-->
-                </div><!--/footer-->
-
-                <div class="copyright">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p>
-                                    2018 &copy; Terrence. ALL Rights Reserved.
-                                    Theme by <a href="http://maxtheme.net">MaxTheme.net</a> | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
-                                </p>
-                            </div>
-                            <div class="col-md-6">
-                                <ul class="list-inline sponsors-icons pull-right">
-                                    <li><i class="fa fa-cc-paypal"></i></li>
-                                    <li><i class="fa fa-cc-visa"></i></li>
-                                    <li><i class="fa fa-cc-mastercard"></i></li>
-                                    <li><i class="fa fa-cc-discover"></i></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/copyright-->
-            </div>
-            <!--=== End Footer v4 ===-->
-        </div><!--/wrapper-->
-
-        <!-- Wait Block -->
-        <div class="g-popup-wrapper">
-            <div class="g-popup g-popup--discount2">
-                <div class="g-popup--discount2-message">
-                    <h3>Want 10% Off?</h3>
-                    <h4>You Are Fabulous!</h4>
-                    <p>Get 10% Off Your Next Purchase! Just Type Email Below!</p>
-
-                    <form action="#" class="sky-form">
-                        <label class="input">
-                            <input type="email" placeholder="Email" class="form-control"/>
-                        </label>
-                        <label class="input">
-                            <button class="btn btn-default" type="button">Subscribe</button>
-                        </label>
-                    </form>
-                </div>
-                <img src="assets/img/blog/26.jpg" alt="ALT" width="270"/>
-                <a href="javascript:void(0);" class="g-popup__close g-popup--discount2__close"><span class="icon-close" aria-hidden="true"></span></a>
-            </div>
-        </div>
-        <!-- End Wait Block -->
-
-        <!-- JS Global Compulsory -->
-        <script src="assets/plugins/jquery/jquery.min.js"></script>
-        <script src="assets/plugins/jquery/jquery-migrate.min.js"></script>
-        <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-        <!-- JS Implementing Plugins -->
-        <script src="assets/plugins/back-to-top.js"></script>
-        <script src="assets/plugins/smoothScroll.js"></script>
-        <script src="assets/plugins/jquery.parallax.js"></script>
-        <script src="assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
-        <script src="assets/plugins/scrollbar/js/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script src="assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-        <script src="assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-        <!-- JS Customization -->
-        <script src="assets/js/custom.js"></script>
-        <!-- JS Page Level -->
-        <script src="assets/js/shop.app.js"></script>
-        <script src="assets/js/plugins/owl-carousel.js"></script>
-        <script src="assets/js/plugins/revolution-slider.js"></script>
-        <script src="assets/js/plugins/style-switcher.js"></script>
-        <script>
-                jQuery(document).ready(function() {
-                        App.init();
-                        App.initScrollBar();
-                        App.initParallaxBg();
-                        OwlCarousel.initOwlCarousel();
-                        RevolutionSlider.initRSfullWidth();
-                        StyleSwitcher.initStyleSwitcher();
-                });
-        </script>
-        <!--[if lt IE 9]>
-                <script src="assets/plugins/respond.js"></script>
-                <script src="assets/plugins/html5shiv.js"></script>
-                <script src="assets/js/plugins/placeholder-IE-fixes.js"></script>
-                <![endif]-->
-
-</h:body>    
-</html>
-
+</ui:composition>
