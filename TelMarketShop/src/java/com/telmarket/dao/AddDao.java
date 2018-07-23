@@ -21,6 +21,7 @@ package com.telmarket.dao;
 import com.telmarket.entity.Category;
 import com.telmarket.entity.Product;
 import com.telmarket.entity.SubCategory;
+import com.telmarket.entity.Users;
 import com.telmarket.util.HibernateUtil;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
@@ -78,4 +79,17 @@ public class AddDao {
         return false;
     }
     
+    public boolean registerUser(Users user){
+        try {
+            SessionFactory factory = HibernateUtil.getSessionFactory();
+            Session session = factory.openSession();
+            session.beginTransaction();
+            session.save(user);
+            session.getTransaction().commit();
+            session.close();
+            return true;
+        } catch (HibernateException e) {
+        }
+        return false;
+    }
 }

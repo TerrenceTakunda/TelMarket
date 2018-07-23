@@ -14,7 +14,8 @@ public class Users  implements java.io.Serializable {
 
      private Integer userId;
      private int roleId;
-     private String userName;
+     private String firstName;
+     private String lastName;
      private String email;
      private String password;
      private Date regDate;
@@ -25,17 +26,19 @@ public class Users  implements java.io.Serializable {
     }
 
 	
-    public Users(int roleId, String userName, String email, String password, Date regDate, String contactNo) {
+    public Users(int roleId, String firstName, String lastName, String email, String password, Date regDate, String contactNo) {
         this.roleId = roleId;
-        this.userName = userName;
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.email = email;
         this.password = password;
         this.regDate = regDate;
         this.contactNo = contactNo;
     }
-    public Users(int roleId, String userName, String email, String password, Date regDate, String contactNo, Set productOrders) {
+    public Users(int roleId, String firstName, String lastName, String email, String password, Date regDate, String contactNo, Set productOrders) {
        this.roleId = roleId;
-       this.userName = userName;
+       this.firstName = firstName;
+       this.lastName = lastName;
        this.email = email;
        this.password = password;
        this.regDate = regDate;
@@ -57,13 +60,23 @@ public class Users  implements java.io.Serializable {
     public void setRoleId(int roleId) {
         this.roleId = roleId;
     }
-    public String getUserName() {
-        return this.userName;
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
     
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
     public String getEmail() {
         return this.email;
     }
