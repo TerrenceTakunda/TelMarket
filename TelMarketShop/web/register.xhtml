@@ -56,6 +56,7 @@
 
                     <div class="col-md-5">
                         <h:form id="sky-form4" class="log-reg-block sky-form">
+                            <p:growl id="growl" showDetail="true" sticky="false" life="5000"/> 
                             <h2>Create New Account</h2>
 
                             <div class="login-input reg-input">
@@ -63,14 +64,14 @@
                                     <div class="col-sm-6">
                                         <section>
                                             <label class="input">
-                                                <h:inputText id="firstname" a:placeholder="First name" value="#{logInRegisterMB.firstName}" class="form-control" required="true"/>
+                                                <h:inputText id="firstname" a:placeholder="First name" value="#{logInRegisterMB.user.firstName}" class="form-control" required="true" requiredMessage="Enter First Name"/>
                                             </label>
                                         </section>
                                     </div>
                                     <div class="col-sm-6">
                                         <section>
                                             <label class="input">
-                                                <h:inputText id="lastname" a:placeholder="Last name" value="#{logInRegisterMB.lastName}" class="form-control" required="true"/>
+                                                <h:inputText id="lastname" a:placeholder="Last name" value="#{logInRegisterMB.user.lastName}" class="form-control" required="true" requiredMessage="Enter Last Name"/>
                                             </label>
                                         </section>
                                     </div>
@@ -111,21 +112,26 @@
                                 </div>
                                 <section>
                                     <label class="input">
-                                        <h:inputText id="email" a:placeholder="Email addresse" value="#{logInRegisterMB.email}" class="form-control" required="true">
+                                        <h:inputText id="email" a:placeholder="Email addresse" value="#{logInRegisterMB.user.email}" class="form-control" required="true" requiredMessage="Enter Email" validatorMessage="Enter Valid Email">
                                             <f:validateRegex pattern="[\w\.-]*[a-zA-Z0-9_]@[\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]"/>
                                         </h:inputText>
                                     </label>
                                 </section>
                                 <section>
                                     <label class="input">
-                                        <h:inputSecret id="password" value="#{logInRegisterMB.password}" a:placeholder="Password" class="form-control" required="true">
-                                         <!--   <f:validator validatorId="com.telmarket.validate.EmptyFieldValidator"/> -->
+                                        <h:inputText id="phone" a:placeholder="Contact Number" value="#{logInRegisterMB.user.contactNo}" class="form-control" required="true" requiredMessage="Enter Contact Number"/>
+                                    </label>
+                                </section>
+                                <section>
+                                    <label class="input">
+                                        <h:inputSecret id="password" value="#{logInRegisterMB.user.password}" a:placeholder="Password" class="form-control" required="true" requiredMessage="Enter Password" validatorMessage="Enter a valid password">
+                                            <f:validator validatorId="com.telmarket.validate.EmptyFieldValidator"/>
                                         </h:inputSecret>
                                     </label>
                                 </section>
                                 <section>
                                     <label class="input">
-                                        <h:inputSecret id="passwordConfirm" value="#" a:placeholder="Confirm Password" class="form-control" required="true"/>
+                                        <h:inputSecret id="passwordConfirm" value="#" a:placeholder="Confirm Password" class="form-control"/>
                                     </label>
                                 </section>
                             </div>

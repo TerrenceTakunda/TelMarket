@@ -1,7 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
-                template="./Template.xhtml">
+                template="./Template.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:p="http://primefaces.org/ui">
 
     <ui:define name="content">
         <!--=== Breadcrumbs v4 ===-->
@@ -88,10 +90,9 @@
 
                             <div class="row columns-space-removes">
                                 <div class="col-lg-6 margin-bottom-10">
-                                    <button type="button" class="btn-u btn-u-md btn-u-fb btn-block"><i class="fa fa-facebook"></i> Log In With Facebook</button>
-                                </div>
+                                    <p:commandButton action="#" class="btn-u btn-u-md btn-u-fb btn-block" icon="fa fa-facebook" value="Facebook Log In"/>                                </div>
                                 <div class="col-lg-6">
-                                    <button type="button" class="btn-u btn-u-md btn-u-tw btn-block"><i class="fa fa-twitter"></i> Twitter Log In</button>
+                                    <p:commandButton action="#" class="btn-u btn-u-md btn-u-tw btn-block" icon="fa fa-twitter" value="Twitter Log In"/> 
                                 </div>
                             </div>
                         </form>

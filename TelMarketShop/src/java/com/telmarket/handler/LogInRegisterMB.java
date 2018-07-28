@@ -20,11 +20,9 @@ package com.telmarket.handler;
 
 import com.telmarket.dao.AddDao;
 import com.telmarket.entity.Users;
-import com.telmarket.security.EncryptField;
 import javax.inject.Named;
 import javax.faces.bean.SessionScoped;
 import java.io.Serializable;
-import java.time.LocalDate;
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.context.FacesContext;
@@ -41,55 +39,9 @@ public class LogInRegisterMB implements Serializable {
     /**
      * Creates a new instance of LogInRegisterMB
      */
-    private String firstName;
-    private String lastName;
-    private String email;
-    private String password;
-    private LocalDate date = LocalDate.now();
-    private Users user;
+    Users user = new Users();
     
     public LogInRegisterMB() {
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) throws Exception {
-        EncryptField field = new EncryptField();
-        this.password = field.encrypt(password);
-    }
-
-    public LocalDate getDate() {
-        return date;
-    }
-
-    public void setDate(LocalDate date) {
-        this.date = date;
     }
 
     public Users getUser() {
@@ -100,10 +52,11 @@ public class LogInRegisterMB implements Serializable {
         this.user = user;
     }
     
-    public String register(){
+    public String register() throws Exception{
         
         user.setFirstName(user.getFirstName());
         user.setLastName(user.getLastName());
+        user.setContactNo(user.getContactNo());
         user.setEmail(user.getEmail());
         user.setPassword(user.getPassword());
         user.setRegDate(user.getRegDate());
