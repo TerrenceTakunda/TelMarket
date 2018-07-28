@@ -3,17 +3,17 @@
 <ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
                 template="./Template.xhtml"
                 xmlns:h="http://xmlns.jcp.org/jsf/html"
-                xmlns:p="http://primefaces.org/ui">
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:a="http://xmlns.jcp.org/jsf/passthrough">
 
     <ui:define name="content">
         <!--=== Breadcrumbs v4 ===-->
         <div class="breadcrumbs-v4">
             <div class="container">
                 <span class="page-name">Log In</span>
-                <h1>Maecenas <span class="shop-green">enim</span> sapien</h1>
+                <h1>TelOne <span class="shop-green">TelMarket</span> Zimbabwe</h1>
                 <ul class="breadcrumb-v4-in">
                     <li><a href="index.xhtml">Home</a></li>
-                    <li><a href="">Product</a></li>
                     <li class="active">Log In</li>
                 </ul>
             </div><!--/end container-->
@@ -26,39 +26,39 @@
                 <div class="row">
                     <div class="col-md-7 md-margin-bottom-50">
                         <h2 class="welcome-title">Welcome to TelMarket Zimbabwe</h2>
-                        <p>Suspendisse et tincidunt ipsum, et dignissim urna. Vestibulum nisl tortor, gravida at magna et, suscipit vehicula massa.</p><br/>
+                        <p>Please Log into your account for a better and more personalized user experience. We would love to make your time with us memorable</p><br/>
                             <div class="info-block-v2">
                                 <i class="icon icon-layers"></i>
                                 <div class="info-block-in">
-                                    <h3>Pellentesque vulputate</h3>
+                                    <h3>Build a Relationship</h3>
                                     <p>Vestibulum non ex volutpat, sodales diam sit amet, semper nunc. Integer sed nibh commodo, tincidunt nisi.</p>
                                 </div>
                             </div>
                             <div class="info-block-v2">
                                 <i class="icon icon-settings"></i>
                                 <div class="info-block-in">
-                                    <h3>Curabitur tincidunt</h3>
+                                    <h3>Shop Securely</h3>
                                     <p>Vestibulum non ex volutpat, sodales diam sit amet, semper nunc. Integer sed nibh commodo, tincidunt nisi.</p>
                                 </div>
                             </div>
                             <div class="info-block-v2">
                                 <i class="icon icon-paper-plane"></i>
                                 <div class="info-block-in">
-                                    <h3>Aenean condimentum</h3>
+                                    <h3>Straight On Point</h3>
                                     <p>Vestibulum non ex volutpat, sodales diam sit amet, semper nunc. Integer sed nibh commodo, tincidunt nisi.</p>
                                 </div>
                             </div>
                     </div>
 
                     <div class="col-md-5">
-                        <form id="sky-form1" class="log-reg-block sky-form">
+                        <h:form id="sky-form1" class="log-reg-block sky-form">
                             <h2>Log in to your account</h2>
 
                             <section>
                                 <label class="input login-input">
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                        <input type="email" placeholder="Email Address" name="email" class="form-control"/>
+                                        <h:inputText value="#" a:placeholder="Email Address" id="email" class="form-control"/>
                                     </div>
                                 </label>
                             </section>
@@ -66,7 +66,7 @@
                                 <label class="input login-input no-border-top">
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                        <input type="password" placeholder="Password" name="password" class="form-control"/>
+                                        <h:inputSecret value="#" a:placeholder="Password" id="password" class="form-control"/>
                                     </div>
                                 </label>
                             </section>
@@ -82,7 +82,7 @@
                                     <a href="#">Forget your Password?</a>
                                 </div>
                             </div>
-                            <button class="btn-u btn-u-sea-shop btn-block margin-bottom-20" type="submit">Log in</button>
+                            <h:commandButton class="btn-u btn-u-sea-shop btn-block margin-bottom-20" action="#" value="Log in"/>
 
                             <div class="border-wings">
                                 <span>or</span>
@@ -95,7 +95,7 @@
                                     <p:commandButton action="#" class="btn-u btn-u-md btn-u-tw btn-block" icon="fa fa-twitter" value="Twitter Log In"/> 
                                 </div>
                             </div>
-                        </form>
+                        </h:form>
 
                         <div class="margin-bottom-20"></div>
                         <p class="text-center">Don't have account yet? Learn more and <a href="register.xhtml">Sign Up</a></p>
