@@ -488,7 +488,7 @@ table.features tr.titles	{	color:#888; font-size:13px;  font-weight:400; text-al
 ********************************/
 
 #css_editor_wrap,
-#layeranimeditor_wrap, {
+#layeranimeditor_wrap {
 	display: none;
 }
 
