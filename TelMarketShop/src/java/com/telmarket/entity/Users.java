@@ -99,8 +99,9 @@ public class Users  implements java.io.Serializable {
     
     public void setRegDate(Date regDate) {
         Date dt = new Date();
-        this.regDate = dt;
-        dt = regDate;
+        regDate = dt;
+        this.regDate = regDate;
+
     }
     public String getContactNo() {
         return this.contactNo;
