@@ -23,6 +23,8 @@ import com.telmarket.entity.Product;
 import com.telmarket.entity.SubCategory;
 import com.telmarket.util.HibernateUtil;
 import java.util.List;
+import org.hibernate.HibernateException;
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
@@ -80,5 +82,22 @@ public class ListDao {
         pList.toString();
         session.close();
         return pList;
+    }
+    
+    public boolean checkUser(String email, String password){
+        try {
+            SessionFactory factory = HibernateUtil.getSessionFactory();
+            Session session = factory.openSession();
+            session.beginTransaction();
+            Query query = session.createQuery("from Users where email=:email and password=:password");
+//            query.setString("firstName", firstName);
+            query.setString("email", email);
+            query.setString("password", password);
+            List dataList = query.list();
+//            System.out.println("2*************"+dataList.toString()+"****************");   //debug
+            return dataList.size() == 1;
+        } catch (HibernateException e) {
+        }
+        return false;
     }
 }

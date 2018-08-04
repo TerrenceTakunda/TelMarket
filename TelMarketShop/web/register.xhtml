@@ -8,7 +8,7 @@
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 
     <h:head>
-        <title>TelOne Zimbabwe | TelMarket Shop Online</title>
+        <title>TelMarket | Register | Shop Online</title>
         <!-- Meta -->
 	<meta charset="utf-8"/>
         <meta http-equiv="Content-Type" content="text/html" />
@@ -436,7 +436,6 @@
 
                     <div class="col-md-5">
                         <h:form id="sky-form4" class="log-reg-block sky-form">
-                            <p:growl id="growl" showDetail="true" sticky="false" life="5000"/> 
                             <h2>Create New Account</h2>
 
                             <div class="login-input reg-input">
@@ -444,69 +443,40 @@
                                     <div class="col-sm-6">
                                         <section>
                                             <label class="input">
-                                                <h:inputText id="firstname" a:placeholder="First name" value="#{logInRegisterMB.user.firstName}" class="form-control" required="true" requiredMessage="Enter First Name"/>
+                                                <p:inputText id="firstname" a:placeholder="First name" value="#{logInRegisterMB.user.firstName}" class="form-control" required="true" requiredMessage="Enter First Name"/>
+                                                <p:message for="firstname" display="icon"/>
                                             </label>
                                         </section>
                                     </div>
                                     <div class="col-sm-6">
                                         <section>
                                             <label class="input">
-                                                <h:inputText id="lastname" a:placeholder="Last name" value="#{logInRegisterMB.user.lastName}" class="form-control" required="true" requiredMessage="Enter Last Name"/>
+                                                <p:inputText id="lastname" a:placeholder="Last name" value="#{logInRegisterMB.user.lastName}" class="form-control" required="true" requiredMessage="Enter Last Name"/>
+                                                <p:message for="lastname" display="icon"/>
                                             </label>
                                         </section>
                                     </div>
                                 </div>
-                                <label class="select margin-bottom-15">
-                                    <select name="gender" class="form-control">
-                                        <option value="0" selected="" disabled="">Gender</option>
-                                        <option value="1">Male</option>
-                                        <option value="2">Female</option>
-                                    </select>
-                                </label>
-                                <div class="row margin-bottom-10">
-                                    <div class="col-xs-6">
-                                        <label class="select">
-                                            <select name="month" class="form-control">
-                                                <option disabled="" selected="" value="0">Month</option>
-                                                <option>January</option>
-                                                <option>February</option>
-                                                <option>March</option>
-                                                <option>April</option>
-                                                <option>May</option>
-                                                <option>June</option>
-                                                <option>July</option>
-                                                <option>August</option>
-                                                <option>September</option>
-                                                <option>October</option>
-                                                <option>November</option>
-                                                <option>December</option>
-                                            </select>
-                                        </label>
-                                    </div>
-                                    <div class="col-xs-3">
-                                        <input type="text" name="day" placeholder="Day" class="form-control"/>
-                                    </div>
-                                    <div class="col-xs-3">
-                                        <input type="text" name="year" placeholder="Year" class="form-control"/>
-                                    </div>
-                                </div>
                                 <section>
                                     <label class="input">
-                                        <h:inputText id="email" a:placeholder="Email addresse" value="#{logInRegisterMB.user.email}" class="form-control" required="true" requiredMessage="Enter Email" validatorMessage="Enter Valid Email">
+                                        <p:inputText id="email" a:placeholder="Email address" value="#{logInRegisterMB.user.email}" class="form-control" required="true" requiredMessage="Enter Email" validatorMessage="Enter Valid Email">
                                             <f:validateRegex pattern="[\w\.-]*[a-zA-Z0-9_]@[\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]"/>
-                                        </h:inputText>
+                                        </p:inputText>
+                                        <p:message for="email" display="icon"/>
                                     </label>
                                 </section>
                                 <section>
                                     <label class="input">
-                                        <h:inputText id="phone" a:placeholder="Contact Number" value="#{logInRegisterMB.user.contactNo}" class="form-control" required="true" requiredMessage="Enter Contact Number"/>
+                                        <p:inputText id="phone" a:placeholder="Contact Number" value="#{logInRegisterMB.user.contactNo}" class="form-control" required="true" requiredMessage="Enter Contact Number"/>
+                                        <p:message for="phone" display="icon"/>
                                     </label>
                                 </section>
                                 <section>
                                     <label class="input">
-                                        <h:inputSecret id="password" value="#{logInRegisterMB.user.password}" a:placeholder="Password" class="form-control" required="true" requiredMessage="Enter Password" validatorMessage="Enter a valid password">
+                                        <p:password id="password" value="#{logInRegisterMB.user.password}" a:placeholder="Password" class="form-control" required="true" requiredMessage="Enter Password" validatorMessage="Enter a valid password">
                                             <f:validator validatorId="com.telmarket.validate.EmptyFieldValidator"/>
-                                        </h:inputSecret>
+                                        </p:password>
+                                        <p:message for="password" display="icon"/>
                                     </label>
                                 </section>
                                 <section>

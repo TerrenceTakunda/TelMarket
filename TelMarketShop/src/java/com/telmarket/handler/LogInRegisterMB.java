@@ -19,6 +19,7 @@
 package com.telmarket.handler;
 
 import com.telmarket.dao.AddDao;
+import com.telmarket.dao.ListDao;
 import com.telmarket.entity.Users;
 import javax.inject.Named;
 import javax.faces.bean.SessionScoped;
@@ -62,12 +63,29 @@ public class LogInRegisterMB implements Serializable {
         user.setRegDate(user.getRegDate());
         boolean status = new AddDao().registerUser(user);
         if(status){
-            FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO, "Registration Successfull", ""));
+            FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Registration Successful", "Please Log In"));
             return "index.xhtml?faces-redirect=true";
         }
         else{
-            FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO, "Registration Failed! Please try again", ""));
+            FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Registration Failed!", "Please try again"));
             return "register.xhtml?faces-redirect=true";
+        }
+    }
+    
+    public String login() throws Exception{
+        
+//        String firstName = user.getFirstName();
+        String email = user.getEmail();
+        String password = user.getPassword();
+//        System.out.println("1*************"+email+" "+password+"****************"); //debug
+        boolean status = new ListDao().checkUser(email, password);
+        if(status){
+            FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Login Successfull", "Welcome "+user.getFirstName()));
+            return "index.xhtml?faces-redirect=true";
+        }
+        else{
+            FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Login Failed!", "Please try again"));
+            return "login.xhtml?faces-redirect=true";
         }
     }
     

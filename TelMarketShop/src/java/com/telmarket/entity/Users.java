@@ -2,7 +2,6 @@ package com.telmarket.entity;
 // Generated Jul 8, 2018 3:59:47 PM by Hibernate Tools 4.3.1
 
 
-import com.telmarket.security.EncryptField;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
@@ -89,9 +88,10 @@ public class Users  implements java.io.Serializable {
         return this.password;
     }
     
-    public void setPassword(String password) throws Exception {
-        EncryptField field = new EncryptField();
-        this.password = field.encrypt(password);
+    public void setPassword(String password) {
+//        EncryptField field = new EncryptField();
+//        this.password = field.encrypt(password);
+        this.password = password;
     }
     public Date getRegDate() {
         return this.regDate;

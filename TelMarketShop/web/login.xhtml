@@ -8,7 +8,7 @@
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 
     <h:head>
-        <title>TelOne Zimbabwe | TelMarket Shop Online</title>
+        <title>TelMarket | Login |Shop Online</title>
         <!-- Meta -->
 	<meta charset="utf-8"/>
         <meta http-equiv="Content-Type" content="text/html" />
@@ -440,7 +440,10 @@
                                 <label class="input login-input">
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                        <h:inputText value="" a:placeholder="Email Address" id="email" class="form-control"/>
+                                        <p:inputText value="#{logInRegisterMB.user.email}" a:placeholder="Email Address" id="email" class="form-control" required="true" requiredMessage="Enter Email Address" validatorMessage="Enter Valid Email">
+                                            <f:validateRegex pattern="[\w\.-]*[a-zA-Z0-9_]@[\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]"/>
+                                        </p:inputText>
+                                        <p:message for="email" display="icon"/>
                                     </div>
                                 </label>
                             </section>
@@ -448,7 +451,10 @@
                                 <label class="input login-input no-border-top">
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                        <h:inputSecret value="#" a:placeholder="Password" id="password" class="form-control"/>
+                                        <p:password value="#{logInRegisterMB.user.password}" a:placeholder="Password" id="password" class="form-control" required="true" requiredMessage="Enter Password" validatorMessage="Enter a Valid Password">
+                                            <f:validator validatorId="com.telmarket.validate.EmptyFieldValidator"/>
+                                        </p:password>
+                                        <p:message for="password" display="icon"/>
                                     </div>
                                 </label>
                             </section>
@@ -464,7 +470,7 @@
                                     <a href="#">Forget your Password?</a>
                                 </div>
                             </div>
-                            <h:commandButton class="btn-u btn-u-sea-shop btn-block margin-bottom-20" action="#" value="Log in"/>
+                            <h:commandButton class="btn-u btn-u-sea-shop btn-block margin-bottom-20" action="#{logInRegisterMB.login()}" value="Log in"/>
 
                             <div class="border-wings">
                                 <span>or</span>
