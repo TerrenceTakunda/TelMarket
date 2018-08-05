@@ -41,6 +41,7 @@ public class LogInRegisterMB implements Serializable {
      * Creates a new instance of LogInRegisterMB
      */
     Users user = new Users();
+    private String confirmPassword;
     
     public LogInRegisterMB() {
     }
@@ -51,6 +52,14 @@ public class LogInRegisterMB implements Serializable {
 
     public void setUser(Users user) {
         this.user = user;
+    }
+
+    public String getConfirmPassword() {
+        return confirmPassword;
+    }
+
+    public void setConfirmPassword(String confirmPassword) {
+        this.confirmPassword = confirmPassword;
     }
     
     public String register() throws Exception{

@@ -473,7 +473,7 @@
                                 </section>
                                 <section>
                                     <label class="input">
-                                        <p:password id="password" value="#{logInRegisterMB.user.password}" a:placeholder="Password" class="form-control" required="true" requiredMessage="Enter Password" validatorMessage="Enter a valid password">
+                                        <p:password id="password" value="#{logInRegisterMB.user.password}" a:placeholder="Password" class="form-control" required="true" requiredMessage="Enter Password">
                                             <f:validator validatorId="com.telmarket.validate.EmptyFieldValidator"/>
                                         </p:password>
                                         <p:message for="password" display="icon"/>
@@ -481,7 +481,10 @@
                                 </section>
                                 <section>
                                     <label class="input">
-                                        <h:inputSecret id="passwordConfirm" value="#" a:placeholder="Confirm Password" class="form-control"/>
+                                        <p:password id="passwordConfirm" value="#{logInRegisterMB.confirmPassword}" a:placeholder="Confirm Password" class="form-control" required="true" requiredMessage="Repeate Password">
+                                            <!--<f:validator validatorId="com.telmarket.validate.PasswordValidator"/>-->
+                                        </p:password>
+                                        <p:message for="passwordConfirm" display="icon"/>
                                     </label>
                                 </section>
                             </div>
