@@ -28,6 +28,25 @@ Affero GNU Visit [http://jpos.org/license](http://jpos.org/license).
  */
 
 
+##DISCLAIMER
+=============================
+
+```
+ ____      ____  _       _______     ____  _____  _____  ____  _____   ______    _  
+|_  _|    |_  _|/ \     |_   __ \   |_   \|_   _||_   _||_   \|_   _|.' ___  |  | | 
+  \ \  /\  / / / _ \      | |__) |    |   \ | |    | |    |   \ | | / .'   \_|  | | 
+   \ \/  \/ / / ___ \     |  __ /     | |\ \| |    | |    | |\ \| | | |   ____  | | 
+    \  /\  /_/ /   \ \_  _| |  \ \_  _| |_\   |_  _| |_  _| |_\   |_\ `.___]  | |_| 
+     \/  \/|____| |____||____| |___||_____|\____||_____||_____|\____|`._____.'  (_) 
+
+```
+
+Please note that this project was published soley foe educational reasons. For commecial use
+please contact the author, purchase a commecial jPOS licence and be responsible.
+
+THANK YOU
+
+
 ## Deployment guide
 
 You will need at least Java 8, glassfish server 5.0 , primefaces 6.2uR1.jar, jpos2.1.1.jar, mysql 8, netbeans 8.2 , git
@@ -66,17 +85,5 @@ OR
 
 ALL DONE
 The Payment gateway PoC should now be running on your local sever
-
-
-##DISCLAIMER
-Please note that this project was published soley foe educational reasons. For commecial use
-please contact the author, purchase a commecial jPOS licence and be responsible.
-
-THANK YOU
-
-
-
-
-
 
 
