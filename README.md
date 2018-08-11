@@ -1,5 +1,5 @@
 # TelMarket
-TelOne school project 2017-2018 University of Zimbabwe faculty of Engineering for Terrence Munyunguma. TelOne payment system for the e-commerce platform.
+TelOne school project 2017-2018 University of Zimbabwe faculty of Engineering for Terrence T Munyunguma. TelOne payment system for e-commerce platform.
 This project has been published only for educational purposes. Technologies used are:
 Java
 Java EE 7
@@ -41,15 +41,15 @@ Affero GNU Visit [http://jpos.org/license](http://jpos.org/license).
 
 ```
 
-Please note that this project was published soley foe educational reasons. For commecial use
-please contact the author, purchase a commecial jPOS licence and be responsible.
+Please note that this project was published solely for educational purposes. For commercial use
+please contact the author, purchase a commercial jPOS licence and be responsible.
 
 THANK YOU
 
 
 ## Deployment guide
 
-You will need at least Java 8, glassfish server 5.0 , primefaces 6.2uR1.jar, jpos2.1.1.jar, mysql 8, netbeans 8.2 , git
+You will need at least Java 8, glassfish server 5.0 , primefaces 6.2 jar, jpos2.1.1 jar, mysql 8, netbeans 8.2 , git
 
 Git clone the projec repository to a local repo.
 
