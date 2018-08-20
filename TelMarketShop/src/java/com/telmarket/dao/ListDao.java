@@ -84,6 +84,16 @@ public class ListDao {
         return pList;
     }
     
+    public List<Product> productListBySubCat(String subcat){
+        
+        SessionFactory factory = HibernateUtil.getSessionFactory();
+        Session session = factory.openSession();
+        List<Product> pList = session.createQuery("SELECT a1 FROM Product a1 WHERE subCategory = '"+("SELECT a1 FROM SubCategory a1 WHERE subCatName = '"+subcat+"'")+"'").list();
+        pList.toString();
+        session.close();
+        return pList;
+    }
+    
     public boolean checkUser(String email, String password){
         try {
             SessionFactory factory = HibernateUtil.getSessionFactory();

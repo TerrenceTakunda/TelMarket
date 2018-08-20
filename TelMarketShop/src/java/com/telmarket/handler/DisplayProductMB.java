@@ -20,6 +20,7 @@ package com.telmarket.handler;
 
 import com.telmarket.dao.ListDao;
 import com.telmarket.entity.Product;
+import com.telmarket.entity.SubCategory;
 import javax.inject.Named;
 import javax.faces.bean.SessionScoped;
 import java.io.Serializable;
@@ -40,6 +41,7 @@ public class DisplayProductMB implements Serializable {
      */
     Product product = new Product();
     private Product selectedProduct;
+    private String subcatname;
     
     public DisplayProductMB() {
     }
@@ -59,10 +61,24 @@ public class DisplayProductMB implements Serializable {
     public void setSelectedProduct(Product selectedProduct) {
         this.selectedProduct = selectedProduct;
     }
+
+    public String getSubcatname() {
+        return subcatname;
+    }
+
+    public void setSubcatname(String subcatname) {
+        this.subcatname = subcatname;
+    }
     
     public List<Product> getAllProducts(){
         
         List<Product> pList = new ListDao().allProductsList();
         return pList;
+    }
+    
+    public List<Product> productsBySubCat(){
+    
+        List<Product> pList = new ListDao().productListBySubCat(subcatname);
+        return pList;    
     }
 }

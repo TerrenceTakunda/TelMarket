@@ -8,7 +8,7 @@ MySQL MariaDB
 
 
 ## License
-Affero GNU Visit [http://jpos.org/license](http://jpos.org/license).
+Affero GNU Visit [TelMarket/GNU.license]
 /*
  * Terrence Takunda Munyunguma [https://github.com/TerrenceTakunda]
  * Copyright (C) 2018 ttmunyunguma@gmail.com

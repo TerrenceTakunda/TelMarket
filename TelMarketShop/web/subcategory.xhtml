@@ -170,7 +170,11 @@
                                                         <div class="col-md-2 col-sm-6">
                                                             <h3 class="mega-menu-heading">mobile</h3>
                                                             <ul class="list-unstyled style-list">
-                                                                <li><a href="#">Samsung</a></li>
+                                                                <li>
+                                                                    <h:commandLink action="subcategory.xhtml">
+                                                                        <h:outputText value="Samsung" binding="#{displayProductMB.subcatname}" />
+                                                                    </h:commandLink>
+                                                                </li>
                                                                 <li><a href="#">Sony</a></li>
                                                                 <li><a href="#">HTC</a></li>
                                                                 <li><a href="#">Hauwaii</a></li>
@@ -571,7 +575,7 @@
                     <div class="col-md-9">
                         <div class="row margin-bottom-5">
                             <div class="col-sm-4 result-category">
-                                <h2><h:outputLabel value="#{categoryMB.category.catName}" /></h2>
+                                <h2><h:outputLabel value="#{subCategoryMB.subcat.subCatName}" /></h2>
                                 <small class="shop-bg-red badge-results">45 Results</small>
                             </div>
                             <div class="col-sm-8">
