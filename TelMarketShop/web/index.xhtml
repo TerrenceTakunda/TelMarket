@@ -111,14 +111,14 @@
                                 <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand" href="index.xhtml">
-                                <h:graphicImage id="logo-header" url="/assets/img/logo.jpg" alt="Logo" height="55"/>
+                                <h:graphicImage id="logo-header" url="/assets/img/logo.jpg" alt="TelMarket" height="55"/>
                             </a>
                         </div>
 
                         <!-- Shopping Cart -->
                         <div class="shop-badge badge-icons pull-right">
                             <h:outputLink value="#"><i class="fa fa-shopping-cart"/></h:outputLink>
-                            <span class="badge badge-sea rounded-x"><h:outputText value="#{shoppingCart.cartSize}" id="cartIcon"/></span>
+                            <span class="badge badge-sea rounded-x"><h:outputText value="${shoppingCart.cartSize}" id="cartIcon"/></span>
                             <div class="badge-open">
                                 <ul class="list-unstyled mCustomScrollbar" data-mcs-theme="minimal-dark">
                                     <p:dataList value="#{shoppingCart.cart}" var="cart">
@@ -166,8 +166,8 @@
                                                             <h3 class="mega-menu-heading">mobile</h3>
                                                             <ul class="list-unstyled style-list">
                                                                 <li>
-                                                                    <h:commandLink action="subcategory.xhtml">
-                                                                        <h:outputLabel value="Samsung" binding="#{displayProductMB.subcatname}" />
+                                                                    <h:commandLink action="subcategory.xhtml" value="Samsung">
+                                                                       <!-- <h:outputLabel value="Samsung" binding="{displayProductMB.subcatname}" /> -->
                                                                     </h:commandLink>
                                                                 </li>
                                                                 <li><a href="#">Sony</a></li>
