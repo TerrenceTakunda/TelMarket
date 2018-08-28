@@ -117,7 +117,7 @@
 
                         <!-- Shopping Cart -->
                         <div class="shop-badge badge-icons pull-right">
-                            <h:outputLink value="#"><i class="fa fa-shopping-cart"/></h:outputLink>
+                            <h:outputLink value="checkout.xhtml"><i class="fa fa-shopping-cart"/></h:outputLink>
                             <span class="badge badge-sea rounded-x"><h:outputText value="${shoppingCart.cartSize}" id="cartIcon"/></span>
                             <div class="badge-open">
                                 <ul class="list-unstyled mCustomScrollbar" data-mcs-theme="minimal-dark">
@@ -161,27 +161,58 @@
                                         <li>
                                             <div class="mega-menu-content">
                                                 <div class="container">
+                                                    <!--
+                                                    <ul class="list-unstyled style-list">
+                                                        <ui:repeat var="category" value="{categoryMB.listCategories()}">
+                                                            <h:commandLink value="{category}"
+                                                        </ui:repeat>
+                                                    </ul>
+                                                    -->
                                                     <div class="row">
                                                         <div class="col-md-2 col-sm-6">
                                                             <h3 class="mega-menu-heading">mobile</h3>
                                                             <ul class="list-unstyled style-list">
                                                                 <li>
-                                                                    <h:commandLink action="subcategory.xhtml" value="Samsung">
-                                                                       <!-- <h:outputLabel value="Samsung" binding="{displayProductMB.subcatname}" /> -->
-                                                                    </h:commandLink>
+                                                                    <h:outputLink value="subcategory.xhtml" >
+                                                                        <h:outputText value="Samsung"/>
+                                                                    </h:outputLink>    
                                                                 </li>
-                                                                <li><a href="#">Sony</a></li>
-                                                                <li><a href="#">HTC</a></li>
-                                                                <li><a href="#">Hauwaii</a></li>
-                                                                <li><a href="#">Iphone</a></li>
-                                                                <li><a href="#">Ipads</a></li>
-                                                                <li><a href="#">Tablets</a></li>
+                                                                <li>
+                                                                    <h:outputLink value="subcategory.xhtml" >
+                                                                        <h:outputText value="Sony"/>
+                                                                    </h:outputLink> 
+                                                                </li>
+                                                                <li>
+                                                                    <h:outputLink value="subcategory.xhtml" >
+                                                                        <h:outputText value="HTC"/>
+                                                                    </h:outputLink>     
+                                                                </li>
+                                                                <li>
+                                                                    <h:outputLink value="subcategory.xhtml" >
+                                                                        <h:outputText value="Hauwaii"/>
+                                                                    </h:outputLink> 
+                                                                </li>
+                                                                <li>
+                                                                    <h:outputLink value="subcategory.xhtml" >
+                                                                        <h:outputText value="Iphone"/>
+                                                                    </h:outputLink>  
+                                                                </li>
+                                                                <li>
+                                                                    <h:outputLink value="subcategory.xhtml" >
+                                                                        <h:outputText value="Ipads"/>
+                                                                    </h:outputLink>  
+                                                                </li>
+                                                                <li>
+                                                                    <h:outputLink value="subcategory.xhtml" >
+                                                                        <h:outputText value="Tablets"/>
+                                                                    </h:outputLink>    
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                         <div class="col-md-2 col-sm-6">
                                                             <h3 class="mega-menu-heading">computers</h3>
                                                             <ul class="list-unstyled style-list">
-                                                                <li><a href="#">HP</a></li>
+                                                                <li><a href="subcategory.xhtml">HP</a></li>
                                                                 <li><a href="#">Lenovo</a></li>
                                                                 <li><a href="#">Acer</a></li>
                                                                 <li><a href="#">Apple</a></li>
@@ -230,7 +261,7 @@
                                                                 <li><a href="#">Data Engineering</a><span class="label label-danger-shop">Certified</span></li>
                                                             </ul>
                                                         </div>
-                                                    </div><!--/end row-->
+                                                    </div> <!--/end row-->
                                                 </div><!--/end container-->
                                             </div><!--/end mega menu content-->
                                         </li>

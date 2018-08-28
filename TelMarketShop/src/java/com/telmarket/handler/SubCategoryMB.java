@@ -103,4 +103,8 @@ public class SubCategoryMB implements Serializable {
         List<SelectItem> catname = new ListDao().catList();
         return catname;
     }
+    
+    public String viewSubCat(){
+        return ("subcategory.xhtml");
+    }
 }

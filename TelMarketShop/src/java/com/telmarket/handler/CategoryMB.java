@@ -19,10 +19,12 @@
 package com.telmarket.handler;
 
 import com.telmarket.dao.AddDao;
+import com.telmarket.dao.ListDao;
 import com.telmarket.entity.Category;
 import javax.inject.Named;
 import javax.faces.bean.SessionScoped;
 import java.io.Serializable;
+import java.util.List;
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.context.FacesContext;
@@ -64,4 +66,9 @@ public class CategoryMB implements Serializable {
         
         return null;
     }
+    /*
+    public List<Category> listCategories(){
+        ListDao list = new ListDao();
+        list.catList();
+    }*/
 }

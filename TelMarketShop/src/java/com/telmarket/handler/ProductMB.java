@@ -153,4 +153,9 @@ public class ProductMB implements Serializable {
         List<SelectItem> subcatName = new ListDao().subcatList(catname);
         return subcatName;
     }
+    
+    public List<Product> getProductBySubCat(){
+        List<Product> products = new ListDao().productListBySubCat(subcatname);
+        return products;
+    }
 }
