@@ -28,7 +28,7 @@ Affero GNU Visit [TelMarket/GNU.license]
  */
 
 
-##@Depracates. This repo is being discontinued. Please see inteliMarket
+##@Depracated. This repo is being discontinued. Please see inteliMarket
 =============================
 
 ```
